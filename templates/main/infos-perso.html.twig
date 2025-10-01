@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {% trans %}default.infos_perso.titlePage{% endtrans %} {# Infos_perso #}
+{% endblock %}
+
+{% block body %}
+<div>
+    <aside>
+        <img src="Images/Ma_photo.jpeg" title="ma photo" alt="photo">
+    </aside>
+    <div>
+        <h1>Qui suis-je ?</h1>
+        <p>
+            Mon nom est Timothée Dagand.<br>
+            Je suis un étudiant en informatique. Je sais programmer dans les langages Java, HTML, CSS, SQL et l'assembleur.<br>
+            Je maîtrise les bases de l'administration de systèmes informatique.
+        </p>
+    </div>
+    <div>
+        <h1>Quelle type d'offre ?</h1>
+        <p>
+            Je serai plus performant dans la programmation. Si possible, je peux apprendre de nouvelles choses.
+        </p>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {% trans %}Navbar{% endtrans %}
+{% endblock %}
+
+{% block body %}
+<header>
+    <nav>
+        <ul>
+            <li class="this_page"><a href="#">Qui suis-je ?</a></li>
+            <li class="other_page"><a href="mes_competences.html">Mes compétences</a></li>
+            <li class="other_page"><a href="mes_projets.html">Mes projets</a></li>
+            <li class="other_page"><a href="me_contacter.html">Me contacter</a></li>
+        </ul>
+    </nav>
+</header>
+{% endblock %}
