@@ -5,23 +5,21 @@
 {% endblock %}
 
 {% block body %}
-
-
-<div>
+<div id="contact_corp">
     <aside>
-        <img id="telephone" src="./Images/telephone.jpg" alt="téléphone">
+        <img id="telephone" src="{{ asset('/public/images/telephone.jpg') }}" alt="téléphone">
     </aside>
     <div>
-        <h1>Comment me contacter ?</h1>
+        <h1>{% endtrans %}Comment me contacter ?{% endtrans %}</h1>
         <p>
-            Vous pouvez me contacter par le biais de mon téléphone portable ou par e-mail.<br>
-            Ma préférence personnelle tend vers le mail. Je ne serai pas toujours disponible pour le télépone, mais je garde toujours ma boîte  mail ouverte dans un onglet en utilisant un appareil électronique.
+            {% trans %}Vous pouvez me contacter grâce à mon téléphone portable ou à mon e-mail.{% endtrans %}<br>
+            {% trans %}Ma préférence personnelle tend vers le mail. Je ne serai pas toujours disponible pour le télépone, mais je garde toujours ma boîte  mail ouverte dans un onglet en utilisant un appareil électronique.{% endtrans %}
         </p>
     </div>
     <div>
-        <h1>Contact :</h1>
+        <h1>{% endtrans %}Contact :{% endtrans %}</h1>
         <p>
-            Téléphone : 06 01 87 60 36<br>
+            {% endtrans %}Téléphone : 06 01 87 60 36{% endtrans %}<br>
             E-mail    : silure.38@gmail.com
         </p>
     </div>

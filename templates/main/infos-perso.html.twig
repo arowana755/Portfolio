@@ -5,22 +5,22 @@
 {% endblock %}
 
 {% block body %}
-<div>
+<div id="infos_perso_corp">
     <aside>
         <img src="Images/Ma_photo.jpeg" title="ma photo" alt="photo">
     </aside>
     <div>
-        <h1>Qui suis-je ?</h1>
+        <h1>Qui suis-je ?{% endtrans %}</h1>
         <p>
-            Mon nom est Timothée Dagand.<br>
+            Mon nom est Timothée Dagand.{% endtrans %}<br>
             Je suis un étudiant en informatique. Je sais programmer dans les langages Java, HTML, CSS, SQL et l'assembleur.<br>
-            Je maîtrise les bases de l'administration de systèmes informatique.
+            Je maîtrise les bases de l'administration de systèmes informatique.{% endtrans %}
         </p>
     </div>
     <div>
-        <h1>Quelle type d'offre ?</h1>
+        <h1>Quelle type d'offre ?{% endtrans %}</h1>
         <p>
-            Je serai plus performant dans la programmation. Si possible, je peux apprendre de nouvelles choses.
+            {% trans %}Je serai plus performant dans la programmation. Si possible, je peux apprendre de nouvelles choses.{% endtrans %}
         </p>
     </div>
 </div>

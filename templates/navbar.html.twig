@@ -8,10 +8,10 @@
 <header>
     <nav>
         <ul>
-            <li class="this_page"><a href="#">Qui suis-je ?</a></li>
-            <li class="other_page"><a href="mes_competences.html">Mes compétences</a></li>
-            <li class="other_page"><a href="mes_projets.html">Mes projets</a></li>
-            <li class="other_page"><a href="me_contacter.html">Me contacter</a></li>
+            <li class="this_page"><a href="{{ path('app_infos_perso') }}">{% trans %}.navbar.infos_perso{% endtrans %}</a></li>    {# Qui suis-je ? #}
+            <li class="other_page"><a href="{{ path('app_competences') }}">{% trans %}.navbar.competences{% endtrans %}</a></li>   {# Mes compétences #}
+            <li class="other_page"><a href="{{ path('app_projets') }}">{% trans %}.navbar.projets{% endtrans %}</a></li>           {# Mes projets #}
+            <li class="other_page"><a href="{{ path('app_contact') }}">{% trans %}.navbar.contact{% endtrans %}</a></li>           {# Me contacter #}
         </ul>
     </nav>
 </header>
