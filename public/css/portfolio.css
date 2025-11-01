@@ -1,21 +1,16 @@
+:root {
+    --primary-bg-color: #2f27ce;
+    --secondary-bg-color: #31357a;
+    --navbar-bg-color: #b7baea;
+    --navbar-border-color: #232323;
+    --primary-text-color: #050315;
+}
+
 body {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-}
-
-#infos_perso_body {
-    //background-image: url(Images/fond-mur-vide.jpg);
-}
-
-#projets_body {
-    //background-image: url(Images/planche.jpg);
-    background-size: 33.35%;
-    color: white;
-}
-
-#contact_body {
-    //background-image: url(Images/grunge-wall-texture.jpg);
+    color: var(--primary-text-color);
 }
 
 #contact_body main {
@@ -55,7 +50,7 @@ h1 {
     height: 20%;
 }
 
-header ul {
+nav ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -63,28 +58,21 @@ header ul {
     padding: 0;
 }
 
-header li {
+nav li {
     text-decoration: none;
-    border: 1px solid rgb(65, 46, 22);
+    border: 1px solid var(--navbar-border-color);
     border-radius: 3px;
-    background-color: rgb(61, 53, 43);
+    background-color: var(--navbar-bg-color);
     padding: 1em 0 1em 0;
 }
 
-header a {
+nav a {
     text-decoration: none;
     padding: 1em 2em 1em 2em;
 }
 
 li.link_page a {
     color: lightgreen;
-}
-
-li.this_page a {
-    color: green;
-	pointer-events: none;
-	cursor: default;
-	display: inline;
 }
 
 p {
