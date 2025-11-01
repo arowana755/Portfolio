@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Attribute\Route;
 
 final class MainController extends AbstractController
 {
-    #[Route('/main', name: 'app_main')]
+    #[Route('/', name: 'port_main')]
     public function index(): Response
     {
         return $this->render('main/index.html.twig', [
@@ -16,7 +16,7 @@ final class MainController extends AbstractController
         ]);
     }
 
-    #[Route('/contact', name: 'app_contact')]
+    #[Route('/contact', name: 'port_contact')]
     public function contact(): Response
     {
         return $this->render('main/contact.html.twig', [
@@ -24,7 +24,7 @@ final class MainController extends AbstractController
         ]);
     }
 
-    #[Route('/competences', name: 'app_competences')]
+    #[Route('/competences', name: 'port_competences')]
     public function competences(): Response
     {
         return $this->render('main/competences.html.twig', [
@@ -32,7 +32,7 @@ final class MainController extends AbstractController
         ]);
     }
 
-    #[Route('/infos_perso', name: 'app_infos_perso')]
+    #[Route('/infos_perso', name: 'port_infos_perso')]
     public function infos_perso(): Response
     {
         return $this->render('main/infos_perso.html.twig', [
@@ -40,7 +40,7 @@ final class MainController extends AbstractController
         ]);
     }
 
-    #[Route('/projets', name: 'app_projets')]
+    #[Route('/projets', name: 'port_projets')]
     public function projets(): Response
     {
         return $this->render('main/projets.html.twig', [

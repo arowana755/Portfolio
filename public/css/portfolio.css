@@ -4,21 +4,21 @@ body {
     margin: 0;
 }
 
-#qui_suis-je_body {
-    background-image: url(Images/fond-mur-vide.jpg);
+#infos_perso_body {
+    //background-image: url(Images/fond-mur-vide.jpg);
 }
 
-#mes_projets_body {
-    background-image: url(Images/planche.jpg);
+#projets_body {
+    //background-image: url(Images/planche.jpg);
     background-size: 33.35%;
     color: white;
 }
 
-#me_contacter_body {
-    background-image: url(Images/grunge-wall-texture.jpg);
+#contact_body {
+    //background-image: url(Images/grunge-wall-texture.jpg);
 }
 
-#me_contacter_body main {
+#contact_body main {
     height: 80%;
 }
 
@@ -27,7 +27,7 @@ main {
     justify-content: space-around;
 }
 
-#mes_projets_body main {
+#projets_body main {
     flex-wrap: wrap;
     justify-content: flex-start;
 }
@@ -40,13 +40,13 @@ div {
     gap: 2em;
 }
 
-#mes_projets_body main div {
+#projets_body main div {
     width: 600px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-#qui_suis-je_body aside {
+#infos_perso_body aside {
     align-self: center;
 }
 
@@ -76,7 +76,7 @@ header a {
     padding: 1em 2em 1em 2em;
 }
 
-li.other_page a {
+li.link_page a {
     color: lightgreen;
 }
 
@@ -91,7 +91,7 @@ p {
     margin: 0;
 }
 
-#me_contacter_body aside {
+#contact_body aside {
     position: relative;
 }
 
@@ -107,7 +107,7 @@ footer {
 
 footer p {
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     color: grey;
     font-style: italic;
     font-size: 8pt;
