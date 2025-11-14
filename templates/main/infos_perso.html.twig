@@ -1,5 +1,9 @@
 {% extends 'base.html.twig' %}
 
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/infos_perso.css') }}">
+{% endblock %}
+
 {% block title %}
     {% trans %}default.infos_perso.titlePage{% endtrans %} {# Infos_perso #}
 {% endblock %}

@@ -1,0 +1,12 @@
+:root {
+    --infos-perso-primary-bg-color: #03045e;
+}
+
+html {
+    background-color: var(--infos-perso-primary-bg-color);
+    color: var(--secondary-text-color);
+}
+
+aside {
+    align-self: center;
+}

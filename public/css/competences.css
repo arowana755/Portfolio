@@ -1,0 +1,8 @@
+:root {
+    --competences-primary-bg-color: #1b263b;
+}
+
+html {
+    background-color: var(--competences-primary-bg-color);
+    color: var(--secondary-text-color);
+}

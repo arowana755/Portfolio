@@ -1,0 +1,11 @@
+footer {
+    position: relative;
+}
+
+footer p {
+    position: fixed;
+    bottom: 0;
+    color: grey;
+    font-style: italic;
+    font-size: 8pt;
+}

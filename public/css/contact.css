@@ -1,0 +1,15 @@
+:root {
+    --contact-primary-bg-color: #8ac926;
+}
+
+html {
+    background-color: var(--contact-primary-bg-color);
+}
+
+main {
+    height: 80%;
+}
+
+aside {
+    position: relative;
+}

@@ -27,12 +27,12 @@ final class MainController extends AbstractController
     #[Route('/competences', name: 'port_competences')]
     public function competences(): Response
     {
-        return $this->render('main/competences.html.twig', [
+        return $this->render('competences.html.twig', [
             'controller_name' => 'CompetencesController',
         ]);
     }
 
-    #[Route('/infos_perso', name: 'port_infos_perso')]
+    #[Route('/infos_perso', name: 'app_infos_perso')]
     public function infos_perso(): Response
     {
         return $this->render('main/infos_perso.html.twig', [

@@ -1,0 +1,37 @@
+:root {
+    --accueil-primary-bg-color: #219ebc;
+}
+
+html {
+    background-color: var(--accueil-primary-bg-color);
+}
+
+main {
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+main > div {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+p {
+    font-size: 30px;
+}
