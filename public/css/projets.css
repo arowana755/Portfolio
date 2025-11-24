@@ -1,0 +1,19 @@
+:root {
+    --projets-primary-bg-color: #adb5bd;
+}
+
+html {
+    background-color: var(--projets-primary-bg-color);
+}
+
+main {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+main > div {
+    width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+

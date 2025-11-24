@@ -1,7 +1,9 @@
-{% extends 'base.html.twig' %}
-
 {% block title %}
     {% trans %}Footer{% endtrans %}
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
 {% endblock %}
 
 {% block body %}

@@ -1,13 +1,17 @@
 {% extends 'base.html.twig' %}
 
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/competences.css') }}">
+{% endblock %}
+
 {% block title %}
     {% trans %}default.competences.titlePage{% endtrans %} {# Compétences #}
 {% endblock %}
 
 {% block body %}
-    <div id="competences_corp">
+    <div id="competences_body">
         <aside>
-            <img src="{{ asset('/public/images/Ma_photo.jpeg') }}" title="ma photo" alt="photo">
+            <img src="{{ asset('images/Ma_photo.jpeg') }}" title="ma photo" alt="photo">
         </aside>
         <div>
             <h1>{% trans %}Quelles sont mes compétences ?{% endtrans %}</h1>

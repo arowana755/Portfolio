@@ -1,25 +1,29 @@
 {% extends 'base.html.twig' %}
 
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
+{% endblock %}
+
 {% block title %}
     {% trans %}default.contact.titlePage{% endtrans %} {# Contact #}
 {% endblock %}
 
 {% block body %}
-<div id="contact_corp">
+<div id="contact_body">
     <aside>
-        <img id="telephone" src="{{ asset('/public/images/telephone.jpg') }}" alt="téléphone">
+        <img id="telephone" src="{{ asset('images/telephone.jpg') }}" alt="téléphone">
     </aside>
     <div>
-        <h1>{% endtrans %}Comment me contacter ?{% endtrans %}</h1>
+        <h2>{% trans %}Comment me contacter ?{% endtrans %}</h2>
         <p>
             {% trans %}Vous pouvez me contacter grâce à mon téléphone portable ou à mon e-mail.{% endtrans %}<br>
             {% trans %}Ma préférence personnelle tend vers le mail. Je ne serai pas toujours disponible pour le télépone, mais je garde toujours ma boîte  mail ouverte dans un onglet en utilisant un appareil électronique.{% endtrans %}
         </p>
     </div>
     <div>
-        <h1>{% endtrans %}Contact :{% endtrans %}</h1>
+        <h3>{% trans %}Contact :{% endtrans %}</h3>
         <p>
-            {% endtrans %}Téléphone : 06 01 87 60 36{% endtrans %}<br>
+            {% trans %}Téléphone : 06 01 87 60 36{% endtrans %}<br>
             E-mail    : silure.38@gmail.com
         </p>
     </div>
