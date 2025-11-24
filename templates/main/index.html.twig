@@ -7,14 +7,14 @@
 {% block title %}Hello MainController!{% endblock %}
 
 {% block body %}
-    <div class="accueil">
+<div class="accueil">
+    <div>
+        <img src="{{ asset('images/Ma_photo.jpeg') }}" alt="Ma photo">
         <div>
-            <img src="{{ asset('images/Ma_photo.jpeg') }}" alt="Ma photo">
-            <div>
-                <h2>Portfolio de</h2>
-                <h1>Timothée Dagand</h1>
-            </div>
+            <h2>Portfolio de</h2>
+            <h1>Timothée Dagand</h1>
         </div>
-        <p>Etudiant en informatique</p>
     </div>
+    <p>Etudiant en informatique</p>
+</div>
 {% endblock %}

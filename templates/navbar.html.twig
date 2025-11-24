@@ -9,11 +9,14 @@
 {% block body %}
 <header>
     <nav>
+        <span id="lien_accueil">
+            <a href="{{ path('port_main') }}">Portfolio</a>
+        </span>
         <ul>
-            <li class="link_page"><a href="{{ path('app_infos_perso') }}">{% trans %}.navbar.infos_perso{% endtrans %}</a></li>
-            <li class="link_page"><a href="{{ path('port_competences') }}">{% trans %}.navbar.competences{% endtrans %}</a></li>
-            <li class="link_page"><a href="{{ path('port_projets') }}">{% trans %}.navbar.projets{% endtrans %}</a></li>
-            <li class="link_page"><a href="{{ path('port_contact') }}">{% trans %}.navbar.contact{% endtrans %}</a></li>
+            <li class="lien_page"><a href="{{ path('port_infos_perso') }}">{% trans %}.navbar.infos_perso{% endtrans %}</a></li>
+            <li class="lien_page"><a href="{{ path('port_competences') }}">{% trans %}.navbar.competences{% endtrans %}</a></li>
+            <li class="lien_page"><a href="{{ path('port_projets') }}">{% trans %}.navbar.projets{% endtrans %}</a></li>
+            <li class="lien_page"><a href="{{ path('port_contact') }}">{% trans %}.navbar.contact{% endtrans %}</a></li>
         </ul>
     </nav>
 </header>

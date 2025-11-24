@@ -32,7 +32,7 @@ final class MainController extends AbstractController
         ]);
     }
 
-    #[Route('/infos_perso', name: 'app_infos_perso')]
+    #[Route('/infos_perso', name: 'port_infos_perso')]
     public function infos_perso(): Response
     {
         return $this->render('main/infos_perso.html.twig', [
