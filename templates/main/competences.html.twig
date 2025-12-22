@@ -10,14 +10,14 @@
 {% endblock %}
 
 {% block body %}
-<div id="competences_body">
+<main id="competences_body">
     <aside>
         <img src="{{ asset('images/Ma_photo.png') }}" title="ma photo" alt="photo">
     </aside>
     <div>
-        <h1>{% trans %}Quelles sont mes compétences ?{% endtrans %}</h1>
+        <h2>{% trans %}Quelles sont mes compétences ?{% endtrans %}</h2>
         <p>
-            {% trans %}Mes meilleurs résultats aux études étaient en Java, en assembleur et en html/css. J'était aussi
+            {% trans %}Mes meilleurs résultats aux études étaient en Java, en assembleur et en html/css. Je suis aussi
 			doué en maths, en base de données, en anglais et en diagrammes.{% endtrans %}
         </p>
 		<p>
@@ -27,13 +27,13 @@
 		</p>
     </div>
     <div>
-        <h1>{% trans %}Mes rôles de prédilection dans un projet{% endtrans %}</h1>
+        <h2>{% trans %}Mes rôles de prédilection dans un projet{% endtrans %}</h2>
         <p>
             {% trans %}Je suis quelqu'un qui tient à finir sa part du travail. Je suis généralement plus efficace en
 			choisissant une tâche précise et en la faisant jusqu'au bout de mon côté.
 			Je peux aussi contribuer à un projet en regardant ce que font les autres et en signalant ce
-			qui est clairement erroné.{% endtrans %}
+			qui est erroné.{% endtrans %}
         </p>
     </div>
-</div>
+</main>
 {% endblock %}

@@ -10,7 +10,7 @@
 {% endblock %}
 
 {% block body %}
-<div id="infos_perso_body">
+<main id="infos_perso_body">
     <aside>
         <img src="{{ asset('images/Ma_photo.png') }}" title="ma photo" alt="photo">
     </aside>
@@ -18,15 +18,16 @@
         <h2>{% trans %}Qui suis-je ?{% endtrans %}</h2>
         <p>
             {% trans %}Mon nom est Timothée Dagand.{% endtrans %}<br>
-            {% trans %}Je suis un étudiant en informatique. Je sais programmer dans les langages Java, HTML, CSS, SQL et l'assembleur.{% endtrans %}<br>
-            {% trans %}Je maîtrise les bases de l'administration de systèmes informatique.{% endtrans %}
+            {% trans %}Je suis un étudiant en informatique. Je sais programmer dans les langages Java, HTML, CSS, SQL,
+                    C, C++, javascript, typescript, PHP et l'assembleur.{% endtrans %}<br>
+            {% trans %}Je maîtrise les bases de l'administration de systèmes informatiques.{% endtrans %}
         </p>
     </div>
     <div>
         <h3>{% trans %}Quelle type d'offre ?{% endtrans %}</h3>
         <p>
-            {% trans %}Je serai plus performant dans la programmation. Si possible, je peux apprendre de nouvelles choses.{% endtrans %}
+            {% trans %}Je serai plus performant dans la programmation. Je peux aussi apprendre de nouvelles choses.{% endtrans %}
         </p>
     </div>
-</div>
+</main>
 {% endblock %}

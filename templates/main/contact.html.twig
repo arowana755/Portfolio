@@ -10,7 +10,7 @@
 {% endblock %}
 
 {% block body %}
-<div id="contact_body">
+<main id="contact_body">
     <aside>
         <img id="telephone" src="{{ asset('images/telephone.png') }}" alt="téléphone">
     </aside>
@@ -18,7 +18,9 @@
         <h2>{% trans %}Comment me contacter ?{% endtrans %}</h2>
         <p>
             {% trans %}Vous pouvez me contacter grâce à mon téléphone portable ou à mon e-mail.{% endtrans %}<br>
-            {% trans %}Ma préférence personnelle tend vers le mail. Je ne serai pas toujours disponible pour le télépone, mais je garde toujours ma boîte  mail ouverte dans un onglet en utilisant un appareil électronique.{% endtrans %}
+            {% trans %}Ma préférence personnelle tend vers le mail. Je ne serai pas toujours disponible pour le télépone,
+                mais je garde toujours ma boîte  mail ouverte dans un onglet en utilisant un appareil électronique et je
+                peux donc répondre rapidement.{% endtrans %}
         </p>
     </div>
     <div>
@@ -28,5 +30,5 @@
             E-mail    : silure.38@gmail.com
         </p>
     </div>
-</div>
+</main>
 {% endblock %}
