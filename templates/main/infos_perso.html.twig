@@ -15,19 +15,34 @@
         <img src="{{ asset('images/Ma_photo.png') }}" title="ma photo" alt="photo">
     </aside>
     <div>
-        <h2>{% trans %}Qui suis-je ?{% endtrans %}</h2>
+        <h2>{% trans %}main.infos_perso.titleView{% endtrans %}</h2> {# Qui suis-je ? #}
         <p>
-            {% trans %}Mon nom est Timothée Dagand.{% endtrans %}<br>
-            {% trans %}Je suis un étudiant en informatique. Je sais programmer dans les langages Java, HTML, CSS, SQL,
-                    C, C++, javascript, typescript, PHP et l'assembleur.{% endtrans %}<br>
-            {% trans %}Je maîtrise les bases de l'administration de systèmes informatiques.{% endtrans %}
+            {% trans %}main.infos_perso.qui{% endtrans %}<br> {# Mon nom est Timothée Dagand. #}
+            {% trans %}main.infos_perso.quoi{% endtrans %}<br> {# Je suis un étudiant en informatique. Je sais programmer
+            dans les langages Java, HTML, CSS, SQL, C, C++, javascript, typescript, PHP et assembleur. #}
+            {% trans %}main.infos_perso.admin{% endtrans %} {# Je maîtrise les bases de l'administration de systèmes informatiques. #}
         </p>
     </div>
     <div>
-        <h3>{% trans %}Quelle type d'offre ?{% endtrans %}</h3>
+        <h3>{% trans %}main.infos_perso.whatQuestion{% endtrans %}</h3> {# Quelle type d'offre ? #}
         <p>
-            {% trans %}Je serai plus performant dans la programmation. Je peux aussi apprendre de nouvelles choses.{% endtrans %}
-        </p>
+            {% trans %}main.infos_perso.why{% endtrans %}
+        </p> {# Pour valider mon année (niveau bac + 2), j'ai besoin de faire un stage en informatique. Il
+                doit de préférence être de l'un des sujets suivants : #}
+        <ul>
+            <li>{% trans %}main.infos_perso.what1{% endtrans %}</li> {# Conception et développement d’applications #}
+            <li>{% trans %}main.infos_perso.what2{% endtrans %}</li> {# Conception et développement de site web #}
+            <li>{% trans %}main.infos_perso.what3{% endtrans %}</li> {# Maintenance et tests de logiciels #}
+            <li>{% trans %}main.infos_perso.what4{% endtrans %}</li> {# Support aux utilisateurs et conduite du changement #}
+            <li>{% trans %}main.infos_perso.what5{% endtrans %}</li> {# Gestion et administration des données #}
+            <li>{% trans %}main.infos_perso.what6{% endtrans %}</li> {# Installation, paramétrage et développement sur progiciel #}
+            <li>{% trans %}main.infos_perso.what7{% endtrans %}</li> {# Assistance direction de projet informatique #}
+            <li>{% trans %}main.infos_perso.what8{% endtrans %}</li> {# Migration informatique #}
+            <li>{% trans %}main.infos_perso.what9{% endtrans %}</li> {# Administration de systèmes et réseaux #}
+        </ul>
+        <p>
+                {% trans %}main.infos_perso.whatComplement{% endtrans %}
+        </p> {# Je serai plus performant en programmation. Je peux aussi apprendre de nouvelles choses. #}
     </div>
 </main>
 {% endblock %}

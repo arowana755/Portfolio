@@ -6,3 +6,7 @@ html {
     background-color: var(--competences-primary-bg-color);
     color: var(--secondary-text-color);
 }
+
+main > aside {
+    align-self: center;
+}

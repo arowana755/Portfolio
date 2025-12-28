@@ -8,7 +8,12 @@ use Symfony\Component\Routing\Attribute\Route;
 
 final class MainController extends AbstractController
 {
-    #[Route('/', name: 'port_main')]
+    #[Route(
+        path: '/{_locale}',
+        name: 'port_main',
+        requirements: ['locale' => '%app.supported_locales%'],
+        defaults: ['_locale' => 'fr']
+    )]
     public function index(): Response
     {
         return $this->render('main/index.html.twig', [
@@ -16,7 +21,12 @@ final class MainController extends AbstractController
         ]);
     }
 
-    #[Route('/contact', name: 'port_contact')]
+    #[Route(
+        path: '/{_locale}/contact',
+        name: 'port_contact',
+        requirements: ['locale' => '%app.supported_locales%'],
+        defaults: ['_locale' => 'fr']
+    )]
     public function contact(): Response
     {
         return $this->render('main/contact.html.twig', [
@@ -24,7 +34,12 @@ final class MainController extends AbstractController
         ]);
     }
 
-    #[Route('/competences', name: 'port_competences')]
+    #[Route(
+        path: '/{_locale}/competences',
+        name: 'port_competences',
+        requirements: ['locale' => '%app.supported_locales%'],
+        defaults: ['_locale' => 'fr']
+    )]
     public function competences(): Response
     {
         return $this->render('main/competences.html.twig', [
@@ -32,7 +47,12 @@ final class MainController extends AbstractController
         ]);
     }
 
-    #[Route('/infos_perso', name: 'port_infos_perso')]
+    #[Route(
+        path: '/{_locale}/infos_perso',
+        name: 'port_infos_perso',
+        requirements: ['locale' => '%app.supported_locales%'],
+        defaults: ['_locale' => 'fr']
+    )]
     public function infos_perso(): Response
     {
         return $this->render('main/infos_perso.html.twig', [
@@ -40,7 +60,12 @@ final class MainController extends AbstractController
         ]);
     }
 
-    #[Route('/projets', name: 'port_projets')]
+    #[Route(
+        path: '/{_locale}/projets',
+        name: 'port_projets',
+        requirements: ['locale' => '%app.supported_locales%'],
+        defaults: ['_locale' => 'fr']
+    )]
     public function projets(): Response
     {
         return $this->render('main/projets.html.twig', [

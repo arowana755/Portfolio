@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="M7W48mF" resname=".footer.msg">
+        <source>.footer.msg</source>
+        <target>Toutes les images utilisées sont libres de droits</target>
+      </trans-unit>
+      <trans-unit id="KIGI9_6" resname="main.competences.titlePage">
+        <source>main.competences.titlePage</source>
+        <target>Compétences</target>
+      </trans-unit>
+      <trans-unit id="SioTB1G" resname="main.competences.titleView">
+        <source>main.competences.titleView</source>
+        <target>Quelles sont mes compétences ?</target>
+      </trans-unit>
+      <trans-unit id="Ljs..va" resname="main.competences.scol">
+        <source>main.competences.scol</source>
+        <target>Mes meilleurs résultats aux études étaient en Java, en C++, en SQL, en
+                            assembleur et en html/css. Je suis aussi doué en maths, en base de données, en anglais et en diagrammes.</target>
+      </trans-unit>
+      <trans-unit id="o9CsXjN" resname="main.competences.calc">
+        <source>main.competences.calc</source>
+        <target>En dehors des études, je suis doué en calcul mental. Quand
+                		    j'étais en école primaire, j'ai refusé d'apprendre les tables de multiplication car je considérais que
+                		    c'était pour les paresseux et je voulais tout calculer de tête. Le résultat est que j'ai beaucoup pratiqué,
+                		    et à force, je suis devenu fort pour cela.</target>
+      </trans-unit>
+      <trans-unit id="xFsz0cw" resname="main.competences.titleRoles">
+        <source>main.competences.titleRoles</source>
+        <target>Mes rôles de prédilection dans un projet</target>
+      </trans-unit>
+      <trans-unit id="CuwHbJb" resname="main.competences.descRoles">
+        <source>main.competences.descRoles</source>
+        <target>Je suis quelqu'un qui tient à finir sa part du travail.
+                            Je suis généralement plus efficace en choisissant une tâche précise et en la faisant jusqu'au bout de mon
+                            côté. Je peux aussi contribuer à un projet en regardant ce que font les autres et en signalant ce
+                			qui est erroné.</target>
+      </trans-unit>
+      <trans-unit id="6j44esb" resname="main.contact.titlePage">
+        <source>main.contact.titlePage</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="LEYg9nk" resname="main.contact.titreVue">
+        <source>main.contact.titreVue</source>
+        <target>Comment me contacter ?</target>
+      </trans-unit>
+      <trans-unit id="FZw6TPl" resname="main.contact.comment">
+        <source>main.contact.comment</source>
+        <target>Vous pouvez me contacter grâce à mon téléphone portable ou à mon e-mail.</target>
+      </trans-unit>
+      <trans-unit id="oXRk0XP" resname="main.contact.lequel">
+        <source>main.contact.lequel</source>
+        <target>Ma préférence personnelle tend vers le mail. Je ne serai pas toujours disponible pour le télépone,
+                                mais je garde toujours ma boîte  mail ouverte dans un onglet en utilisant un appareil électronique et je
+                                peux donc répondre rapidement.</target>
+      </trans-unit>
+      <trans-unit id="pt.R.Kx" resname="main.contact.titreDisplay">
+        <source>main.contact.titreDisplay</source>
+        <target>Contact :</target>
+      </trans-unit>
+      <trans-unit id="21bxqiU" resname="main.contact.tel">
+        <source>main.contact.tel</source>
+        <target>Téléphone : 06 01 87 60 36</target>
+      </trans-unit>
+      <trans-unit id="yTLUGl4" resname="main.index.titlePage">
+        <source>main.index.titlePage</source>
+        <target>Index</target>
+      </trans-unit>
+      <trans-unit id="3POZeYl" resname="main.index.quoi">
+        <source>main.index.quoi</source>
+        <target>Portfolio de</target>
+      </trans-unit>
+      <trans-unit id="LJDh_h6" resname="main.index.occupation">
+        <source>main.index.occupation</source>
+        <target>Etudiant en informatique</target>
+      </trans-unit>
+      <trans-unit id="VDC7rsA" resname="main.infos_perso.titlePage">
+        <source>main.infos_perso.titlePage</source>
+        <target>Infos_perso</target>
+      </trans-unit>
+      <trans-unit id="QfyTsBI" resname="main.infos_perso.titleView">
+        <source>main.infos_perso.titleView</source>
+        <target>Qui suis-je ?</target>
+      </trans-unit>
+      <trans-unit id="BJwFJbp" resname="main.infos_perso.qui">
+        <source>main.infos_perso.qui</source>
+        <target>Mon nom est Timothée Dagand.</target>
+      </trans-unit>
+      <trans-unit id="6VEq.Dg" resname="main.infos_perso.quoi">
+        <source>main.infos_perso.quoi</source>
+        <target>Je suis un étudiant en informatique. Je sais programmer
+          dans les langages Java, HTML, CSS, SQL, C, C++, javascript, typescript, PHP et assembleur.</target>
+      </trans-unit>
+      <trans-unit id="jFQRV6_" resname="main.infos_perso.admin">
+        <source>main.infos_perso.admin</source>
+        <target>Je maîtrise les bases de l'administration de systèmes informatiques.</target>
+      </trans-unit>
+      <trans-unit id="yO6.bzX" resname="main.infos_perso.whatQuestion">
+        <source>main.infos_perso.whatQuestion</source>
+        <target>Quelle type d'offre ?</target>
+      </trans-unit>
+      <trans-unit id="CGanQaF" resname="main.infos_perso.why">
+        <source>main.infos_perso.why</source>
+        <target>Pour valider mon année (niveau bac + 2), j'ai besoin de faire un stage en informatique. Il
+                                doit de préférence être de l'un des sujets suivants :</target>
+      </trans-unit>
+      <trans-unit id="b_WEvDb" resname="main.infos_perso.what1">
+        <source>main.infos_perso.what1</source>
+        <target>Conception et développement d’applications</target>
+      </trans-unit>
+      <trans-unit id="bnk9_sR" resname="main.infos_perso.what2">
+        <source>main.infos_perso.what2</source>
+        <target>Conception et développement de site web</target>
+      </trans-unit>
+      <trans-unit id="v1Qeq7e" resname="main.infos_perso.what3">
+        <source>main.infos_perso.what3</source>
+        <target>Maintenance et tests de logiciels</target>
+      </trans-unit>
+      <trans-unit id="Ef2BvQg" resname="main.infos_perso.what4">
+        <source>main.infos_perso.what4</source>
+        <target>Support aux utilisateurs et conduite du changement</target>
+      </trans-unit>
+      <trans-unit id="w6Q4oVf" resname="main.infos_perso.what5">
+        <source>main.infos_perso.what5</source>
+        <target>Gestion et administration des données</target>
+      </trans-unit>
+      <trans-unit id="39PRL6g" resname="main.infos_perso.what6">
+        <source>main.infos_perso.what6</source>
+        <target>Installation, paramétrage et développement sur progiciel</target>
+      </trans-unit>
+      <trans-unit id="tw6FARu" resname="main.infos_perso.what7">
+        <source>main.infos_perso.what7</source>
+        <target>Assistance direction de projet informatique</target>
+      </trans-unit>
+      <trans-unit id="FBwfZCD" resname="main.infos_perso.what8">
+        <source>main.infos_perso.what8</source>
+        <target>Migration informatique</target>
+      </trans-unit>
+      <trans-unit id="HnZFSUg" resname="main.infos_perso.what9">
+        <source>main.infos_perso.what9</source>
+        <target>Administration de systèmes et réseaux</target>
+      </trans-unit>
+      <trans-unit id="I8NyIVz" resname="main.infos_perso.whatComplement">
+        <source>main.infos_perso.whatComplement</source>
+        <target>Je serai plus performant en programmation. Je peux aussi apprendre de nouvelles choses.</target>
+      </trans-unit>
+      <trans-unit id="zvsS7Yc" resname="main.projets.titlePage">
+        <source>main.projets.titlePage</source>
+        <target>Projets</target>
+      </trans-unit>
+      <trans-unit id="YQkntgu" resname="main.projets.titleIA">
+        <source>main.projets.titleIA</source>
+        <target>Création d'une intelligence artificielle</target>
+      </trans-unit>
+      <trans-unit id="vFlAzEQ" resname="main.projets.descIA">
+        <source>main.projets.descIA</source>
+        <target>
+          Durant ma formation, j'ai créé une IA qui analysait
+          des dépêches et devinait le thême grace à une liste de mots que je lui ai donnée avec le langage java.
+          Je lui ai ensuite fait analyser 500 dépêches pour tester et elle avait près de 80% de réussite.
+        </target>
+      </trans-unit>
+      <trans-unit id="9lQ.Rvk" resname="main.projets.titleBD">
+        <source>main.projets.titleBD</source>
+        <target>Exploîtation d'une base de données</target>
+      </trans-unit>
+      <trans-unit id="iyGEY.z" resname="main.projets.descBD">
+        <source>main.projets.descBD</source>
+        <target>
+          Encore pendant ma formation, j'ai
+          nettoyé une base de données sur le nutriscore contenant des doublons et des valeurs
+          impossibles. J'ai ensuite extrait certaines données intéressantes pour créer des
+          graphiques afin d'expliquer ce qu'est le nutriscore.
+        </target>
+      </trans-unit>
+      <trans-unit id="y5XVSjn" resname="main.projets.titleEvent">
+        <source>main.projets.titleEvent</source>
+        <target>Développement d'une application pour organisateurs d'évènements</target>
+      </trans-unit>
+      <trans-unit id="uMBJnUO" resname="main.projets.descEvent">
+        <source>main.projets.descEvent</source>
+        <target>Toujours durant ma formation, j'ai
+                            participé à des travaux de groupe faits à 6 visant à créer un logiciel qui aide les
+                            organisateurs d'évènements. Cela m'a appris l'importance de la communication dans les travaux en groupe.
+                            Nous pouvons gagner beaucoup de temps en nous coordonnant correctement.
+                            Je me suis occuppé de la conception de diagrammes UML et des diagrammes de
+                            séquences illustrants le code de l'application, ce qui m'a donné de
+                            l'expérience pour réfléchir à comment un service informatique doit faire afin
+                            de fonctionner correctement. J'ai également fait le code du modèle java.</target>
+      </trans-unit>
+      <trans-unit id="FfnCPam" resname="main.projets.titleMusee">
+        <source>main.projets.titleMusee</source>
+        <target>Développement d'une application pour visiter des musées</target>
+      </trans-unit>
+      <trans-unit id="4NVpnz4" resname="main.projets.descMusee">
+        <source>main.projets.descMusee</source>
+        <target>Durant un autre projet étudiant en équipe de 7,
+                            j'ai participé au développement d'une application servant à créer des chemins de musées fictifs
+                            pour ceux qui n'auraient pas le temps de tout voir. J'ai pu expérimenter davantage le fait
+                            de travailler avec un chef de projet et la découverte du framework NextJS.
+                            Je me suis occupé de diverses tâches telles que le modèle typescript, le design
+                            et l'ergonomie de l'application, la conception de diagrammes ou la correction
+                            de bugs.</target>
+      </trans-unit>
+      <trans-unit id="lNW0AMH" resname="main.projets.titleAppUp">
+        <source>main.projets.titleAppUp</source>
+        <target>Amélioration d'une application existante</target>
+      </trans-unit>
+      <trans-unit id="JI3qzPG" resname="main.projets.descAppUp">
+        <source>main.projets.descAppUp</source>
+        <target>Plus tard dans mon BUT2, j'ai aussi amélioré une
+                            application de recherche de stage donnée par les enseignants de l'IUT. C'était un projet en groupe de 5.
+                            Cela m'a montré quelles pouvaient être les conséquences d'un travail mal fait
+                            et comment y remédier. Je me suis chargé de l'amélioration de la base de données
+                            et de la partie serveur avec le framework Symfony.</target>
+      </trans-unit>
+      <trans-unit id="Dskt5y5" resname=".navbar.infos_perso">
+        <source>.navbar.infos_perso</source>
+        <target>Infos perso</target>
+      </trans-unit>
+      <trans-unit id="oFYMEMy" resname=".navbar.competences">
+        <source>.navbar.competences</source>
+        <target>Competences</target>
+      </trans-unit>
+      <trans-unit id="ucoVQB8" resname=".navbar.projets">
+        <source>.navbar.projets</source>
+        <target>Projets</target>
+      </trans-unit>
+      <trans-unit id="6hK3XiL" resname=".navbar.contact">
+        <source>.navbar.contact</source>
+        <target>Contact</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -5,16 +5,18 @@
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
 {% endblock %}
 
-{% block title %}main.index.titlePage{% endblock %}
+{% block title %}
+    {% trans %}main.index.titlePage{% endtrans %}
+{% endblock %}
 
 {% block body %}
 <main class="accueil">
     <div>
         <img src="{{ asset('images/Ma_photo.png') }}" alt="Ma photo">
         <div>
-            <h2>Portfolio de</h2>
+            <h2>{% trans %}main.index.quoi{% endtrans %}</h2> {# Portfolio de #}
             <h1>Timothée Dagand</h1>
-            <p>Etudiant en informatique</p>
+            <p>{% trans %}main.index.occupation{% endtrans %}</p> {# Etudiant en informatique #}
         </div>
     </div>
 </main>
