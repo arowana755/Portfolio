@@ -24,9 +24,12 @@ main {
 div {
     width: 30%;
     height: 30em;
+    margin: 20px;
+    padding: 10px;
     display: flex;
     flex-flow: nowrap column;
     gap: 2em;
+    border-radius: 2%;
 }
 
 h2, h3 {
@@ -36,10 +39,4 @@ h2, h3 {
 
 p {
     margin: 0;
-}
-
-img#telephone {
-    position: absolute;
-    left: 90%;
-    width: 20cqb;
 }

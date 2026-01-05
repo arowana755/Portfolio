@@ -7,7 +7,7 @@
     <body>
           <trans-unit id="M7W48mF" resname=".footer.msg">
             <source>.footer.msg</source>
-            <target>All pictures are free</target>
+            <target>All pictures were made by me</target>
           </trans-unit>
           <trans-unit id="KIGI9_6" resname="main.competences.titlePage">
             <source>main.competences.titlePage</source>

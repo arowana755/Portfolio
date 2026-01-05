@@ -1,5 +1,6 @@
 :root {
     --competences-primary-bg-color: #1b263b;
+    --competences-sec-bg-color: #1b264b;
 }
 
 html {
@@ -7,6 +8,44 @@ html {
     color: var(--secondary-text-color);
 }
 
+main > div {
+    background-color: var(--competences-sec-bg-color);
+    border-radius: 2%;
+    z-index: 2;
+}
+
 main > aside {
     align-self: center;
+}
+
+main {
+    position: relative;
+}
+
+main > p.decorative_numbers {
+    position: absolute;
+    font-size: 25px;
+    color: gray;
+    font-weight: bold;
+    z-index: 1;
+}
+
+main > p.decorative_numbers#num1 {
+    top: 100%;
+    left: 40%;
+}
+
+main > p.decorative_numbers#num2 {
+    top: 50%;
+    left: 13%;
+}
+
+main > p.decorative_numbers#num3 {
+    top: 60%;
+    left: 60%;
+}
+
+main > p.decorative_numbers#num4 {
+    top: 120%;
+    left: 75%;
 }

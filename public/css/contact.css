@@ -1,5 +1,6 @@
 :root {
-    --contact-primary-bg-color: #8ac926;
+    --contact-primary-bg-color: #8ac956;
+    --contact-sec-bg-color: #8ac926;
 }
 
 html {
@@ -10,6 +11,18 @@ main {
     height: 80%;
 }
 
-aside {
+main > div {
     position: relative;
+    background-color: var(--contact-sec-bg-color);
+    border: 2px solid green;
+}
+
+main > div > img.contact_image {
+    position: absolute;
+    right: 10px;
+    top: 100px;
+}
+
+main > div > img#telephone {
+    max-width: 80px;
 }

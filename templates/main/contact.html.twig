@@ -11,11 +11,9 @@
 
 {% block body %}
 <main id="contact_body">
-    <aside>
-        <img id="telephone" src="{{ asset('images/telephone.png') }}" alt="téléphone">
-    </aside>
     <div>
         <h2>{% trans %}main.contact.titreVue{% endtrans %}</h2> {# Comment me contacter ? #}
+        <img id="comm" class="contact_image" src="{{ asset('images/comm.png') }}" alt="parler"/>
         <p>
             {% trans %}main.contact.comment{% endtrans %}<br> {# Vous pouvez me contacter grâce à mon téléphone portable ou à mon e-mail. #}
             {% trans %}main.contact.lequel{% endtrans %} {# Ma préférence personnelle tend vers le mail. Je ne serai pas toujours disponible pour le télépone,
@@ -24,7 +22,8 @@
         </p>
     </div>
     <div>
-        <h3>{% trans %}main.contact.titreDisplay{% endtrans %}</h3> {# Contact : #}
+        <h2>{% trans %}main.contact.titreDisplay{% endtrans %}</h2> {# Contact : #}
+        <img id="telephone" class="contact_image" src="{{ asset('images/telephone.png') }}" alt="téléphone">
         <p>
             {% trans %}main.contact.tel{% endtrans %}<br> {# Téléphone : 06 01 87 60 36 #}
             E-mail    : silure.38@gmail.com

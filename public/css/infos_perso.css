@@ -1,10 +1,27 @@
 :root {
     --infos-perso-primary-bg-color: #03045e;
+    --infos-perso-sec-bg-color: #03044e;
 }
 
 html {
     background-color: var(--infos-perso-primary-bg-color);
     color: var(--secondary-text-color);
+}
+
+main {
+    position: relative;
+}
+
+main > div.infos {
+    background-color: var(--infos-perso-sec-bg-color);
+    height: 35em;
+}
+
+main > img.crayon {
+    position: absolute;
+    left: 58%;
+    top: 30%;
+    transform: rotate(225deg);
 }
 
 aside {

@@ -1,5 +1,6 @@
 :root {
     --projets-primary-bg-color: #adb5bd;
+    --projets-sec-bg-color: #adb5ad;
 }
 
 html {
@@ -11,9 +12,21 @@ main {
     justify-content: flex-start;
 }
 
-main > div {
-    width: 600px;
-    margin-left: 20px;
-    margin-right: 20px;
+main > div.project_container {
+    width: 45%;
+    height: 25em;
+    background-color: var(--projets-sec-bg-color);
+    position: relative;
 }
 
+main img.marteau {
+    height: min-content;
+    width: 25%;
+    transform: rotate(300deg) scale(-1, 1);
+    position: absolute;
+    right: 10px;
+}
+
+h3 {
+    height: auto;
+}

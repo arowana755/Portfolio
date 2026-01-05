@@ -14,7 +14,7 @@
     <aside>
         <img src="{{ asset('images/Ma_photo.png') }}" title="ma photo" alt="photo">
     </aside>
-    <div>
+    <div class="infos">
         <h2>{% trans %}main.infos_perso.titleView{% endtrans %}</h2> {# Qui suis-je ? #}
         <p>
             {% trans %}main.infos_perso.qui{% endtrans %}<br> {# Mon nom est Timothée Dagand. #}
@@ -23,7 +23,8 @@
             {% trans %}main.infos_perso.admin{% endtrans %} {# Je maîtrise les bases de l'administration de systèmes informatiques. #}
         </p>
     </div>
-    <div>
+    <img class="crayon" src="{{ asset('images/crayon.png') }}" alt="crayon"/>
+    <div class="infos">
         <h3>{% trans %}main.infos_perso.whatQuestion{% endtrans %}</h3> {# Quelle type d'offre ? #}
         <p>
             {% trans %}main.infos_perso.why{% endtrans %}

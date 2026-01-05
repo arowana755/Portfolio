@@ -50,6 +50,8 @@ nav div#links-container {
 nav > div {
     height: auto;
     width: auto;
+    margin: 0;
+    padding: 0;
 }
 
 nav span#lien_accueil {

@@ -7,7 +7,7 @@
     <body>
       <trans-unit id="M7W48mF" resname=".footer.msg">
         <source>.footer.msg</source>
-        <target>Toutes les images utilisées sont libres de droits</target>
+        <target>Toutes les images utilisées ont été faites par moi</target>
       </trans-unit>
       <trans-unit id="KIGI9_6" resname="main.competences.titlePage">
         <source>main.competences.titlePage</source>
