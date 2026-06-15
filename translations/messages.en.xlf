@@ -15,32 +15,30 @@
           </trans-unit>
           <trans-unit id="SioTB1G" resname="main.competences.titleView">
             <source>main.competences.titleView</source>
-            <target>What are my skills?</target>
+            <target>What skills?</target>
           </trans-unit>
           <trans-unit id="Ljs..va" resname="main.competences.scol">
             <source>main.competences.scol</source>
             <target>
-              My best academic results were in Java, C++, SQL, assembly language, and HTML/CSS. I am also good at
-              math, databases, English, and diagrams.
+              My best academic results were in programming and mathematics. Also good at
+              web development, databases, English, and diagrams.
             </target>
           </trans-unit>
           <trans-unit id="o9CsXjN" resname="main.competences.calc">
             <source>main.competences.calc</source>
             <target>
-              Outside of school, I am good at mental arithmetic. When I was in elementary school, I refused to learn my
-              multiplication tables because I thought they were for lazy people and I wanted to calculate everything in
-              my head. As a result, I practiced a lot, and with practice, I became very good at it.
+              Outside of school, good at mental arithmetic.
             </target>
           </trans-unit>
           <trans-unit id="xFsz0cw" resname="main.competences.titleRoles">
             <source>main.competences.titleRoles</source>
-            <target>My favourites tasks in a project</target>
+            <target>Favourites tasks in a project:</target>
           </trans-unit>
           <trans-unit id="CuwHbJb" resname="main.competences.descRoles">
             <source>main.competences.descRoles</source>
             <target>
-              I am someone who likes to finish my share of the work. I am generally more effective when I choose a
-              specific task and see it through to completion on my own. I can also contribute to a project by observing
+              Someone who likes to finish my share of the work. Generally more effective when choosing a
+              specific task and see it through to completion alone. Can also contribute to a project by observing
               what others are doing and pointing out any errors.
             </target>
           </trans-unit>
@@ -59,8 +57,7 @@
           <trans-unit id="oXRk0XP" resname="main.contact.lequel">
             <source>main.contact.lequel</source>
             <target>
-              My personal preference is email. I may not always be available to answer the phone, but I always keep my
-              email open in a tab on my electronic device, so I can respond quickly.
+              My personal preference is email.
             </target>
           </trans-unit>
           <trans-unit id="pt.R.Kx" resname="main.contact.titreDisplay">
@@ -98,8 +95,8 @@
           <trans-unit id="6VEq.Dg" resname="main.infos_perso.quoi">
             <source>main.infos_perso.quoi</source>
             <target>
-              I am a computer science student. I know how to program in Java, HTML, CSS, SQL, C, C++, JavaScript,
-              TypeScript, PHP, and assembly language.
+              I am a computer science student. I know how to program in Java, C, C++, assembly language,
+              javascript, typescript, PHP, HTML, CSS and SQL.
             </target>
           </trans-unit>
           <trans-unit id="jFQRV6_" resname="main.infos_perso.admin">

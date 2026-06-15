@@ -15,29 +15,26 @@
       </trans-unit>
       <trans-unit id="SioTB1G" resname="main.competences.titleView">
         <source>main.competences.titleView</source>
-        <target>Quelles sont mes compétences ?</target>
+        <target>Quelles compétences ?</target>
       </trans-unit>
       <trans-unit id="Ljs..va" resname="main.competences.scol">
         <source>main.competences.scol</source>
-        <target>Mes meilleurs résultats aux études étaient en Java, en C++, en SQL, en
-                            assembleur et en html/css. Je suis aussi doué en maths, en base de données, en anglais et en diagrammes.</target>
+        <target>Meilleurs résultats aux études en programmation et en
+                            mathématiques. Également aussi doué en développement, en base de données, en anglais et en diagrammes.</target>
       </trans-unit>
       <trans-unit id="o9CsXjN" resname="main.competences.calc">
         <source>main.competences.calc</source>
-        <target>En dehors des études, je suis doué en calcul mental. Quand
-                		    j'étais en école primaire, j'ai refusé d'apprendre les tables de multiplication car je considérais que
-                		    c'était pour les paresseux et je voulais tout calculer de tête. Le résultat est que j'ai beaucoup pratiqué,
-                		    et à force, je suis devenu fort pour cela.</target>
+        <target>En dehors des études, possède des compétences pour le calcul mental.</target>
       </trans-unit>
       <trans-unit id="xFsz0cw" resname="main.competences.titleRoles">
         <source>main.competences.titleRoles</source>
-        <target>Mes rôles de prédilection dans un projet</target>
+        <target>Rôles de prédilection dans un projet :</target>
       </trans-unit>
       <trans-unit id="CuwHbJb" resname="main.competences.descRoles">
         <source>main.competences.descRoles</source>
-        <target>Je suis quelqu'un qui tient à finir sa part du travail.
-                            Je suis généralement plus efficace en choisissant une tâche précise et en la faisant jusqu'au bout de mon
-                            côté. Je peux aussi contribuer à un projet en regardant ce que font les autres et en signalant ce
+        <target>Quelqu'un qui tient à finir sa part du travail.
+                            Généralement plus efficace en choisissant une tâche précise et en la faisant jusqu'au bout de son
+                            côté. Peux aussi contribuer à un projet en regardant ce que font les autres et en signalant ce
                 			qui est erroné.</target>
       </trans-unit>
       <trans-unit id="6j44esb" resname="main.contact.titlePage">
@@ -54,9 +51,7 @@
       </trans-unit>
       <trans-unit id="oXRk0XP" resname="main.contact.lequel">
         <source>main.contact.lequel</source>
-        <target>Ma préférence personnelle tend vers le mail. Je ne serai pas toujours disponible pour le télépone,
-                                mais je garde toujours ma boîte  mail ouverte dans un onglet en utilisant un appareil électronique et je
-                                peux donc répondre rapidement.</target>
+        <target>Ma préférence personnelle tend vers le mail.</target>
       </trans-unit>
       <trans-unit id="pt.R.Kx" resname="main.contact.titreDisplay">
         <source>main.contact.titreDisplay</source>
@@ -93,7 +88,7 @@
       <trans-unit id="6VEq.Dg" resname="main.infos_perso.quoi">
         <source>main.infos_perso.quoi</source>
         <target>Je suis un étudiant en informatique. Je sais programmer
-          dans les langages Java, HTML, CSS, SQL, C, C++, javascript, typescript, PHP et assembleur.</target>
+          dans les langages Java, C, C++, assembleur, javascript, typescript, PHP, HTML, CSS et SQL.</target>
       </trans-unit>
       <trans-unit id="jFQRV6_" resname="main.infos_perso.admin">
         <source>main.infos_perso.admin</source>
