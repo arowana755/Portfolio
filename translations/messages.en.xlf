@@ -266,6 +266,10 @@
         <source>main.projets.appUpMC</source>
         <target>Keywords: Symfony, PHP, Database, software.</target>
       </trans-unit>
+      <trans-unit id="O5sZ9Y." resname="main.index.github">
+        <source>main.index.github</source>
+        <target>Portfolio's Github page</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
