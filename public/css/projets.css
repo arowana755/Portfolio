@@ -19,10 +19,10 @@ main > div.project_container {
     position: relative;
 }
 
-main img.marteau {
+main img.projet {
     height: min-content;
-    width: 25%;
-    transform: rotate(300deg) scale(-1, 1);
+    max-width: 25%;
+    max-height: 200px;
     position: absolute;
     right: 10px;
 }

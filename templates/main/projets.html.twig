@@ -13,53 +13,73 @@
 <main id="projets_body">
     <div class="project_container">
         <h3>{% trans %}main.projets.titleIA{% endtrans %}</h3> {# Création d'une intelligence artificielle #}
-        <img class="marteau" src="{{ asset('images/marteau.png') }}" alt="Marteau">
-        <p>{% trans %}main.projets.descIA{% endtrans %}</p> {# Durant ma formation, j'ai créé une IA qui analysait
-            des dépêches et devinait le thême grace à une liste de mots que je lui ai donnée avec le langage java.
-            Je lui ai ensuite fait analyser 500 dépêches pour tester et elle avait près de 80% de réussite. #}
+        <img class="projet" src="{{ asset('images/Projets/s1-01-extrait.png') }}" alt="Extrait du compte-rendu">
+        <ul>
+            <li>{% trans %}main.projets.IAEq{% endtrans %}</li>  {# Équipe : 2 personnes #}
+            <li>{% trans %}main.projets.IAObj{% endtrans %}</li> {# Objectif : projet étudiant demandant de créer
+            une IA qui analysait des dépêches et devinait le thême grace à une liste de mots fournie avec le
+            langage Java. A analysé 500 dépêches pour tester. Près de 80% de réussite. #}
+            <li>{% trans %}main.projets.IAMC{% endtrans %}</li>  {# Mots-clés : IA, Java. #}
+        </ul>
     </div>
     <div class="project_container">
         <h3>{% trans %}main.projets.titleBD{% endtrans %}</h3> {# Exploîtation d'une base de données #}
-        <img class="marteau" src="{{ asset('images/marteau.png') }}" alt="Marteau">
-        <p>{% trans %}main.projets.descBD{% endtrans %}</p> {# Encore pendant ma formation, j'ai
-            nettoyé une base de données sur le nutriscore contenant des doublons et des valeurs
-            impossibles. J'ai ensuite extrait certaines données intéressantes pour créer des
+        <img class="projet" src="{{ asset('images/Projets/s2-04-graph.png') }}" alt="Graphique nutriscore">
+        <ul>
+            <li>{% trans %}main.projets.BDEq{% endtrans %}</li>  {# Équipe : 2 personnes #}
+            <li>{% trans %}main.projets.BDObj{% endtrans %}</li> {# Objectif : projet étudiant demandant de
+            nettoyer une base de données sur le nutriscore contenant des doublons et des valeurs
+            impossibles. Extraction de certaines données intéressantes pour créer des
             graphiques afin d'expliquer ce qu'est le nutriscore. #}
+            <li>{% trans %}main.projets.BDMC{% endtrans %}</li>  {# Mots-clés : base de données, SQL, graphiques. #}
+        </ul>
     </div>
     <div class="project_container">
         <h3>{% trans %}main.projets.titleEvent{% endtrans %}</h3>
         {# Développement d'une application pour organisateurs d'évènements #}
-        <img class="marteau" src="{{ asset('images/marteau.png') }}" alt="Marteau">
-        <p>{% trans %}main.projets.descEvent{% endtrans %}</p> {# Toujours durant ma formation, j'ai
-            participé à des travaux de groupe faits à 6 visant à créer un logiciel qui aide les
-            organisateurs d'évènements. Cela m'a appris l'importance de la communication dans les travaux en groupe.
+        <img class="projet" src="{{ asset('images/Projets/Diagramme_de_classe_détaillé.jpg') }}" alt="Diagramme ede classe">
+        <ul>
+            <li>{% trans %}main.projets.eventEq{% endtrans %}</li>  {# Équipe : 6 personnes #}
+            <li>{% trans %}main.projets.eventObj{% endtrans %}</li> {# Objectif : projet étudiant demandant de créer un logiciel qui aide les
+            organisateurs d'évènements. Cela montrait l'importance de la communication dans les travaux en groupe.
             Nous pouvons gagner beaucoup de temps en nous coordonnant correctement.
             Je me suis occuppé de la conception de diagrammes UML et des diagrammes de
-            séquences illustrants le code de l'application, ce qui m'a donné de
-            l'expérience pour réfléchir à comment un service informatique doit faire afin
-            de fonctionner correctement. J'ai également fait le code du modèle java. #}
+            séquences illustrants le code de l'application, ce qui m'a donné de l'expérience pour
+            réfléchir à comment un service informatique doit faire afin de fonctionner correctement.
+            J'ai également fait le code du modèle java, ce qui m'a donné de l'expérience en programmation. #}
+            <li>{% trans %}main.projets.eventMC{% endtrans %}</li>  {# Mots-clés : logiciel, Java, UML. #}
+        </ul>
     </div>
     <br>
     <div class="project_container">
         <h3>{% trans %}main.projets.titleMusee{% endtrans %}</h3>
         {# Développement d'une application pour visiter des musées #}
-        <img class="marteau" src="{{ asset('images/marteau.png') }}" alt="Marteau">
-        <p>{% trans %}main.projets.descMusee{% endtrans %}</p> {# Durant un autre projet étudiant en équipe de 7,
-            j'ai participé au développement d'une application servant à créer des chemins de musées fictifs
+        <img class="projet" src="{{ asset('images/Projets/thibou-ex.png') }}" alt="Chemin de visite customisé">
+        <ul>
+            <li>{% trans %}main.projets.museeEq{% endtrans %}</li>  {# Équipe : 7 personnes #}
+            <li>{% trans %}main.projets.museeObj{% endtrans %}</li> {# Objectif : projet étudiant demandant de
+            développer une application servant à créer des chemins de musées fictifs
             pour ceux qui n'auraient pas le temps de tout voir. J'ai pu expérimenter davantage le fait
             de travailler avec un chef de projet et la découverte du framework NextJS.
             Je me suis occupé de diverses tâches telles que le modèle typescript, le design
-            et l'ergonomie de l'application, la conception de diagrammes ou la correction
+            et l'ergonomie de l'application, la conception de diagrammes UML ou la correction
             de bugs. #}
+            <li>{% trans %}main.projets.museeMC{% endtrans %}</li>  {# Mots-clés : TypeScript, NextJS, logiciel, UML, ergonomie. #}
+            <li><a href="https://github.com/chlorat3/Thibou">Github</a></li>
+        </ul>
     </div>
     <div class="project_container">
        <h3>{% trans %}main.projets.titleAppUp{% endtrans %}</h3> {# Amélioration d'une application existante #}
-       <img class="marteau" src="{{ asset('images/marteau.png') }}" alt="Marteau">
-        <p>{% trans %}main.projets.descAppUp{% endtrans %}</p> {# Plus tard dans mon BUT2, j'ai aussi amélioré une
-            application de recherche de stage donnée par les enseignants de l'IUT. C'était un projet en groupe de 5.
-            Cela m'a montré quelles pouvaient être les conséquences d'un travail mal fait
+       <img class="projet" src="{{ asset('images/Projets/restAppTree.png') }}" alt="Arbre d'application">
+        <ul>
+            <li>{% trans %}main.projets.appUpEq{% endtrans %}</li>  {# Équipe : 5 personnes #}
+            <li>{% trans %}main.projets.appUpObj{% endtrans %}</li> {# Objectif : projet étudiant demandant de restaurer une
+            application de recherche de stage donnée par les enseignants de l'IUT.
+            Cela montrait quelles pouvaient être les conséquences d'un travail mal fait
             et comment y remédier. Je me suis chargé de l'amélioration de la base de données
             et de la partie serveur avec le framework Symfony. #}
+            <li>{% trans %}main.projets.appUpMC{% endtrans %}</li>  {# Mots-clés : base de données, Symfony, logiciel. #}
+        </ul>
     </div>
 
 </main>

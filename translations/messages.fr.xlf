@@ -151,67 +151,21 @@
         <source>main.projets.titleIA</source>
         <target>Création d'une intelligence artificielle</target>
       </trans-unit>
-      <trans-unit id="vFlAzEQ" resname="main.projets.descIA">
-        <source>main.projets.descIA</source>
-        <target>
-          Durant ma formation, j'ai créé une IA qui analysait
-          des dépêches et devinait le thême grace à une liste de mots que je lui ai donnée avec le langage java.
-          Je lui ai ensuite fait analyser 500 dépêches pour tester et elle avait près de 80% de réussite.
-        </target>
-      </trans-unit>
       <trans-unit id="9lQ.Rvk" resname="main.projets.titleBD">
         <source>main.projets.titleBD</source>
         <target>Exploîtation d'une base de données</target>
-      </trans-unit>
-      <trans-unit id="iyGEY.z" resname="main.projets.descBD">
-        <source>main.projets.descBD</source>
-        <target>
-          Encore pendant ma formation, j'ai
-          nettoyé une base de données sur le nutriscore contenant des doublons et des valeurs
-          impossibles. J'ai ensuite extrait certaines données intéressantes pour créer des
-          graphiques afin d'expliquer ce qu'est le nutriscore.
-        </target>
       </trans-unit>
       <trans-unit id="y5XVSjn" resname="main.projets.titleEvent">
         <source>main.projets.titleEvent</source>
         <target>Développement d'une application pour organisateurs d'évènements</target>
       </trans-unit>
-      <trans-unit id="uMBJnUO" resname="main.projets.descEvent">
-        <source>main.projets.descEvent</source>
-        <target>Toujours durant ma formation, j'ai
-                            participé à des travaux de groupe faits à 6 visant à créer un logiciel qui aide les
-                            organisateurs d'évènements. Cela m'a appris l'importance de la communication dans les travaux en groupe.
-                            Nous pouvons gagner beaucoup de temps en nous coordonnant correctement.
-                            Je me suis occuppé de la conception de diagrammes UML et des diagrammes de
-                            séquences illustrants le code de l'application, ce qui m'a donné de
-                            l'expérience pour réfléchir à comment un service informatique doit faire afin
-                            de fonctionner correctement. J'ai également fait le code du modèle java.</target>
-      </trans-unit>
       <trans-unit id="FfnCPam" resname="main.projets.titleMusee">
         <source>main.projets.titleMusee</source>
         <target>Développement d'une application pour visiter des musées</target>
       </trans-unit>
-      <trans-unit id="4NVpnz4" resname="main.projets.descMusee">
-        <source>main.projets.descMusee</source>
-        <target>Durant un autre projet étudiant en équipe de 7,
-                            j'ai participé au développement d'une application servant à créer des chemins de musées fictifs
-                            pour ceux qui n'auraient pas le temps de tout voir. J'ai pu expérimenter davantage le fait
-                            de travailler avec un chef de projet et la découverte du framework NextJS.
-                            Je me suis occupé de diverses tâches telles que le modèle typescript, le design
-                            et l'ergonomie de l'application, la conception de diagrammes ou la correction
-                            de bugs.</target>
-      </trans-unit>
       <trans-unit id="lNW0AMH" resname="main.projets.titleAppUp">
         <source>main.projets.titleAppUp</source>
         <target>Amélioration d'une application existante</target>
-      </trans-unit>
-      <trans-unit id="JI3qzPG" resname="main.projets.descAppUp">
-        <source>main.projets.descAppUp</source>
-        <target>Plus tard dans mon BUT2, j'ai aussi amélioré une
-                            application de recherche de stage donnée par les enseignants de l'IUT. C'était un projet en groupe de 5.
-                            Cela m'a montré quelles pouvaient être les conséquences d'un travail mal fait
-                            et comment y remédier. Je me suis chargé de l'amélioration de la base de données
-                            et de la partie serveur avec le framework Symfony.</target>
       </trans-unit>
       <trans-unit id="Dskt5y5" resname=".navbar.infos_perso">
         <source>.navbar.infos_perso</source>
@@ -228,6 +182,87 @@
       <trans-unit id="6hK3XiL" resname=".navbar.contact">
         <source>.navbar.contact</source>
         <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="AYgFxd8" resname="main.projets.IAEq">
+        <source>main.projets.IAEq</source>
+        <target>Équipe : 2 personnes</target>
+      </trans-unit>
+      <trans-unit id="NnDQ5Rt" resname="main.projets.IAObj">
+        <source>main.projets.IAObj</source>
+        <target>Objectif : projet étudiant demandant de créer
+                            une IA qui analysait des dépêches et devinait le thême grace à une liste de mots fournie avec le
+                            langage Java. A analysé 500 dépêches pour tester. Près de 80% de réussite.</target>
+      </trans-unit>
+      <trans-unit id="i9dzvTo" resname="main.projets.IAMC">
+        <source>main.projets.IAMC</source>
+        <target>Mots-clés : IA, Java.</target>
+      </trans-unit>
+      <trans-unit id="CMxVnC8" resname="main.projets.BDEq">
+        <source>main.projets.BDEq</source>
+        <target>Équipe : 2 personnes.</target>
+      </trans-unit>
+      <trans-unit id="qA5_tFN" resname="main.projets.BDObj">
+        <source>main.projets.BDObj</source>
+        <target>Objectif : projet étudiant demandant de
+                            nettoyer une base de données sur le nutriscore contenant des doublons et des valeurs
+                            impossibles. Extraction de certaines données intéressantes pour créer des
+                            graphiques afin d'expliquer ce qu'est le nutriscore.</target>
+      </trans-unit>
+      <trans-unit id="exEmxCH" resname="main.projets.BDMC">
+        <source>main.projets.BDMC</source>
+        <target>Mots-clés : base de données, SQL, graphiques.</target>
+      </trans-unit>
+      <trans-unit id="e13mXSQ" resname="main.projets.eventEq">
+        <source>main.projets.eventEq</source>
+        <target>Équipe : 6 personnes.</target>
+      </trans-unit>
+      <trans-unit id="wnv97.e" resname="main.projets.eventObj">
+        <source>main.projets.eventObj</source>
+        <target>Objectif : projet étudiant demandant de créer un logiciel qui aide les
+                            organisateurs d'évènements. Cela montrait l'importance de la communication dans les travaux en groupe.
+                            Nous pouvons gagner beaucoup de temps en nous coordonnant correctement.
+                            Je me suis occuppé de la conception de diagrammes UML et des diagrammes de
+                            séquences illustrants le code de l'application, ce qui m'a donné de l'expérience pour
+                            réfléchir à comment un service informatique doit faire afin de fonctionner correctement.
+                            J'ai également fait le code du modèle java, ce qui m'a donné de l'expérience en programmation.</target>
+      </trans-unit>
+      <trans-unit id="Rpkiyra" resname="main.projets.eventMC">
+        <source>main.projets.eventMC</source>
+        <target>Mots-clés : logiciel, Java, UML.</target>
+      </trans-unit>
+      <trans-unit id="OrdYa4P" resname="main.projets.museeEq">
+        <source>main.projets.museeEq</source>
+        <target>Équipe : 7 personnes.</target>
+      </trans-unit>
+      <trans-unit id="IUjskf7" resname="main.projets.museeObj">
+        <source>main.projets.museeObj</source>
+        <target>Objectif : projet étudiant demandant de
+                            développer une application servant à créer des chemins de musées fictifs
+                            pour ceux qui n'auraient pas le temps de tout voir. J'ai pu expérimenter davantage le fait
+                            de travailler avec un chef de projet et la découverte du framework NextJS.
+                            Je me suis occupé de diverses tâches telles que le modèle typescript, le design
+                            et l'ergonomie de l'application, la conception de diagrammes UML ou la correction
+                            de bugs.</target>
+      </trans-unit>
+      <trans-unit id="H0a_9DL" resname="main.projets.museeMC">
+        <source>main.projets.museeMC</source>
+        <target>Mots-clés : TypeScript, NextJS, logiciel, UML.</target>
+      </trans-unit>
+      <trans-unit id="y.m56DE" resname="main.projets.appUpEq">
+        <source>main.projets.appUpEq</source>
+        <target>Équipe : 5 personnes.</target>
+      </trans-unit>
+      <trans-unit id="2RSV_hl" resname="main.projets.appUpObj">
+        <source>main.projets.appUpObj</source>
+        <target>Objectif : projet étudiant demandant de restaurer une
+                            application de recherche de stage donnée par les enseignants de l'IUT.
+                            Cela montrait quelles pouvaient être les conséquences d'un travail mal fait
+                            et comment y remédier. Je me suis chargé de l'amélioration de la base de données
+                            et de la partie serveur avec le framework Symfony.</target>
+      </trans-unit>
+      <trans-unit id="pLpVMJU" resname="main.projets.appUpMC">
+        <source>main.projets.appUpMC</source>
+        <target>Mots-clés : base de données, Symfony, logiciel.</target>
       </trans-unit>
     </body>
   </file>

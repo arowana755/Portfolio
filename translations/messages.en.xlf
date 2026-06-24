@@ -5,234 +5,267 @@
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
-          <trans-unit id="M7W48mF" resname=".footer.msg">
-            <source>.footer.msg</source>
-            <target>All pictures were made by me</target>
-          </trans-unit>
-          <trans-unit id="KIGI9_6" resname="main.competences.titlePage">
-            <source>main.competences.titlePage</source>
-            <target>Skills</target>
-          </trans-unit>
-          <trans-unit id="SioTB1G" resname="main.competences.titleView">
-            <source>main.competences.titleView</source>
-            <target>What skills?</target>
-          </trans-unit>
-          <trans-unit id="Ljs..va" resname="main.competences.scol">
-            <source>main.competences.scol</source>
-            <target>
+      <trans-unit id="M7W48mF" resname=".footer.msg">
+        <source>.footer.msg</source>
+        <target>All pictures were made by me</target>
+      </trans-unit>
+      <trans-unit id="KIGI9_6" resname="main.competences.titlePage">
+        <source>main.competences.titlePage</source>
+        <target>Skills</target>
+      </trans-unit>
+      <trans-unit id="SioTB1G" resname="main.competences.titleView">
+        <source>main.competences.titleView</source>
+        <target>What skills?</target>
+      </trans-unit>
+      <trans-unit id="Ljs..va" resname="main.competences.scol">
+        <source>main.competences.scol</source>
+        <target>
               My best academic results were in programming and mathematics. Also good at
               web development, databases, English, and diagrams.
             </target>
-          </trans-unit>
-          <trans-unit id="o9CsXjN" resname="main.competences.calc">
-            <source>main.competences.calc</source>
-            <target>
+      </trans-unit>
+      <trans-unit id="o9CsXjN" resname="main.competences.calc">
+        <source>main.competences.calc</source>
+        <target>
               Outside of school, good at mental arithmetic.
             </target>
-          </trans-unit>
-          <trans-unit id="xFsz0cw" resname="main.competences.titleRoles">
-            <source>main.competences.titleRoles</source>
-            <target>Favourites tasks in a project:</target>
-          </trans-unit>
-          <trans-unit id="CuwHbJb" resname="main.competences.descRoles">
-            <source>main.competences.descRoles</source>
-            <target>
+      </trans-unit>
+      <trans-unit id="xFsz0cw" resname="main.competences.titleRoles">
+        <source>main.competences.titleRoles</source>
+        <target>Favourites tasks in a project:</target>
+      </trans-unit>
+      <trans-unit id="CuwHbJb" resname="main.competences.descRoles">
+        <source>main.competences.descRoles</source>
+        <target>
               Someone who likes to finish my share of the work. Generally more effective when choosing a
               specific task and see it through to completion alone. Can also contribute to a project by observing
               what others are doing and pointing out any errors.
             </target>
-          </trans-unit>
-          <trans-unit id="6j44esb" resname="main.contact.titlePage">
-            <source>main.contact.titlePage</source>
-            <target>Contact</target>
-          </trans-unit>
-          <trans-unit id="LEYg9nk" resname="main.contact.titreVue">
-            <source>main.contact.titreVue</source>
-            <target>How to contact me?</target>
-          </trans-unit>
-          <trans-unit id="FZw6TPl" resname="main.contact.comment">
-            <source>main.contact.comment</source>
-            <target>You can contact me with my phone or my email.</target>
-          </trans-unit>
-          <trans-unit id="oXRk0XP" resname="main.contact.lequel">
-            <source>main.contact.lequel</source>
-            <target>
+      </trans-unit>
+      <trans-unit id="6j44esb" resname="main.contact.titlePage">
+        <source>main.contact.titlePage</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="LEYg9nk" resname="main.contact.titreVue">
+        <source>main.contact.titreVue</source>
+        <target>How to contact me?</target>
+      </trans-unit>
+      <trans-unit id="FZw6TPl" resname="main.contact.comment">
+        <source>main.contact.comment</source>
+        <target>You can contact me with my phone or my email.</target>
+      </trans-unit>
+      <trans-unit id="oXRk0XP" resname="main.contact.lequel">
+        <source>main.contact.lequel</source>
+        <target>
               My personal preference is email.
             </target>
-          </trans-unit>
-          <trans-unit id="pt.R.Kx" resname="main.contact.titreDisplay">
-            <source>main.contact.titreDisplay</source>
-            <target>Contact :</target>
-          </trans-unit>
-          <trans-unit id="21bxqiU" resname="main.contact.tel">
-            <source>main.contact.tel</source>
-            <target>Phone number : +33 6 01 87 60 36</target>
-          </trans-unit>
-          <trans-unit id="yTLUGl4" resname="main.index.titlePage">
-            <source>main.index.titlePage</source>
-            <target>Index</target>
-          </trans-unit>
-          <trans-unit id="3POZeYl" resname="main.index.quoi">
-            <source>main.index.quoi</source>
-            <target>Portfolio of</target>
-          </trans-unit>
-          <trans-unit id="LJDh_h6" resname="main.index.occupation">
-            <source>main.index.occupation</source>
-            <target>Computer science student</target>
-          </trans-unit>
-          <trans-unit id="VDC7rsA" resname="main.infos_perso.titlePage">
-            <source>main.infos_perso.titlePage</source>
-            <target>About_me</target>
-          </trans-unit>
-          <trans-unit id="QfyTsBI" resname="main.infos_perso.titleView">
-            <source>main.infos_perso.titleView</source>
-            <target>About me</target>
-          </trans-unit>
-          <trans-unit id="BJwFJbp" resname="main.infos_perso.qui">
-            <source>main.infos_perso.qui</source>
-            <target>My name is Timothée Dagand.</target>
-          </trans-unit>
-          <trans-unit id="6VEq.Dg" resname="main.infos_perso.quoi">
-            <source>main.infos_perso.quoi</source>
-            <target>
+      </trans-unit>
+      <trans-unit id="pt.R.Kx" resname="main.contact.titreDisplay">
+        <source>main.contact.titreDisplay</source>
+        <target>Contact :</target>
+      </trans-unit>
+      <trans-unit id="21bxqiU" resname="main.contact.tel">
+        <source>main.contact.tel</source>
+        <target>Phone number : +33 6 01 87 60 36</target>
+      </trans-unit>
+      <trans-unit id="yTLUGl4" resname="main.index.titlePage">
+        <source>main.index.titlePage</source>
+        <target>Index</target>
+      </trans-unit>
+      <trans-unit id="3POZeYl" resname="main.index.quoi">
+        <source>main.index.quoi</source>
+        <target>Portfolio of</target>
+      </trans-unit>
+      <trans-unit id="LJDh_h6" resname="main.index.occupation">
+        <source>main.index.occupation</source>
+        <target>Computer science student</target>
+      </trans-unit>
+      <trans-unit id="VDC7rsA" resname="main.infos_perso.titlePage">
+        <source>main.infos_perso.titlePage</source>
+        <target>About_me</target>
+      </trans-unit>
+      <trans-unit id="QfyTsBI" resname="main.infos_perso.titleView">
+        <source>main.infos_perso.titleView</source>
+        <target>About me</target>
+      </trans-unit>
+      <trans-unit id="BJwFJbp" resname="main.infos_perso.qui">
+        <source>main.infos_perso.qui</source>
+        <target>My name is Timothée Dagand.</target>
+      </trans-unit>
+      <trans-unit id="6VEq.Dg" resname="main.infos_perso.quoi">
+        <source>main.infos_perso.quoi</source>
+        <target>
               I am a computer science student. I know how to program in Java, C, C++, assembly language,
               javascript, typescript, PHP, HTML, CSS and SQL.
             </target>
-          </trans-unit>
-          <trans-unit id="jFQRV6_" resname="main.infos_perso.admin">
-            <source>main.infos_perso.admin</source>
-            <target>I have a good grasp of the basics of computer system administration.</target>
-          </trans-unit>
-          <trans-unit id="yO6.bzX" resname="main.infos_perso.whatQuestion">
-            <source>main.infos_perso.whatQuestion</source>
-            <target>What type of offer?</target>
-          </trans-unit>
-          <trans-unit id="CGanQaF" resname="main.infos_perso.why">
-            <source>main.infos_perso.why</source>
-            <target>
+      </trans-unit>
+      <trans-unit id="jFQRV6_" resname="main.infos_perso.admin">
+        <source>main.infos_perso.admin</source>
+        <target>I have a good grasp of the basics of computer system administration.</target>
+      </trans-unit>
+      <trans-unit id="yO6.bzX" resname="main.infos_perso.whatQuestion">
+        <source>main.infos_perso.whatQuestion</source>
+        <target>What type of offer?</target>
+      </trans-unit>
+      <trans-unit id="CGanQaF" resname="main.infos_perso.why">
+        <source>main.infos_perso.why</source>
+        <target>
               To validate my year (two years of postsecondary education), I need to complete an internship in
               computer science. It should preferably be in one of the following subjects:
             </target>
-          </trans-unit>
-          <trans-unit id="b_WEvDb" resname="main.infos_perso.what1">
-            <source>main.infos_perso.what1</source>
-            <target>Application creation and development</target>
-          </trans-unit>
-          <trans-unit id="bnk9_sR" resname="main.infos_perso.what2">
-            <source>main.infos_perso.what2</source>
-            <target>Websites development</target>
-          </trans-unit>
-          <trans-unit id="v1Qeq7e" resname="main.infos_perso.what3">
-            <source>main.infos_perso.what3</source>
-            <target>Software maintenance and testing</target>
-          </trans-unit>
-          <trans-unit id="Ef2BvQg" resname="main.infos_perso.what4">
-            <source>main.infos_perso.what4</source>
-            <target>User support and change management</target>
-          </trans-unit>
-          <trans-unit id="w6Q4oVf" resname="main.infos_perso.what5">
-            <source>main.infos_perso.what5</source>
-            <target>Data management and administration</target>
-          </trans-unit>
-          <trans-unit id="39PRL6g" resname="main.infos_perso.what6">
-            <source>main.infos_perso.what6</source>
-            <target>Installation, configuration, and development on software packages</target>
-          </trans-unit>
-          <trans-unit id="tw6FARu" resname="main.infos_perso.what7">
-            <source>main.infos_perso.what7</source>
-            <target>IT project management support</target>
-          </trans-unit>
-          <trans-unit id="FBwfZCD" resname="main.infos_perso.what8">
-            <source>main.infos_perso.what8</source>
-            <target>IT migration</target>
-          </trans-unit>
-          <trans-unit id="HnZFSUg" resname="main.infos_perso.what9">
-            <source>main.infos_perso.what9</source>
-            <target>System and network administration</target>
-          </trans-unit>
-          <trans-unit id="I8NyIVz" resname="main.infos_perso.whatComplement">
-            <source>main.infos_perso.whatComplement</source>
-            <target>I am better at programming. I can also learn new skills.</target>
-          </trans-unit>
-          <trans-unit id="zvsS7Yc" resname="main.projets.titlePage">
-            <source>main.projets.titlePage</source>
-            <target>Projects</target>
-          </trans-unit>
-          <trans-unit id="YQkntgu" resname="main.projets.titleIA">
-            <source>main.projets.titleIA</source>
-            <target>AI creating</target>
-          </trans-unit>
-          <trans-unit id="vFlAzEQ" resname="main.projets.descIA">
-            <source>main.projets.descIA</source>
-            <target>
-              During my training, I created an AI that analyzed news reports and guessed the theme using a list of words
-              I gave it in Java. I then had it analyze 500 news reports to test it, and it had a success rate of nearly 80%.
-            </target>
-          </trans-unit>
-          <trans-unit id="9lQ.Rvk" resname="main.projets.titleBD">
-            <source>main.projets.titleBD</source>
-            <target>Database management</target>
-          </trans-unit>
-          <trans-unit id="iyGEY.z" resname="main.projets.descBD">
-            <source>main.projets.descBD</source>
-            <target>
-              During my training, I cleaned up a Nutriscore database that contained duplicates and impossible values. I
-              then extracted some interesting data to create graphs explaining what Nutriscore is.
-            </target>
-          </trans-unit>
-          <trans-unit id="y5XVSjn" resname="main.projets.titleEvent">
-            <source>main.projets.titleEvent</source>
-            <target>Application for event organizers development</target>
-          </trans-unit>
-          <trans-unit id="uMBJnUO" resname="main.projets.descEvent">
-            <source>main.projets.descEvent</source>
-            <target>
-              During my training, I participated in a group project with five other students to create software that
-              helps event organizers. This taught me the importance of communication in group work. We can save a lot
-              of time by coordinating properly. I was responsible for designing UML diagrams and sequence diagrams
-              illustrating the application code, which gave me experience in thinking about how an IT service should
-              function properly. I also wrote the Java model code.
-            </target>
-          </trans-unit>
-          <trans-unit id="FfnCPam" resname="main.projets.titleMusee">
-            <source>main.projets.titleMusee</source>
-            <target>Museum visit application development</target>
-          </trans-unit>
-          <trans-unit id="4NVpnz4" resname="main.projets.descMusee">
-            <source>main.projets.descMusee</source>
-            <target>During another student project in a team of seven, I participated in the development of an
-                    application used to create fictional museum itineraries for those who don't have time to visit
-                    everything. I was able to gain more experience working with a project manager and discovering the
-                    NextJS framework. I handled various tasks such as the TypeScript model, the design and ergonomics
-                    of the application, the creation of diagrams, and bug fixes.</target>
-          </trans-unit>
-          <trans-unit id="lNW0AMH" resname="main.projets.titleAppUp">
-            <source>main.projets.titleAppUp</source>
-            <target>Existing application improvement</target>
-          </trans-unit>
-          <trans-unit id="JI3qzPG" resname="main.projets.descAppUp">
-            <source>main.projets.descAppUp</source>
-            <target>Later in my BUT2, I also improved an internship search application provided by IUT teachers. It was
-                    a group project involving five people. It showed me the consequences of poor work and how to remedy
-                    it. I was responsible for improving the database
-                    and the server side using the Symfony framework.</target>
-          </trans-unit>
-          <trans-unit id="Dskt5y5" resname=".navbar.infos_perso">
-            <source>.navbar.infos_perso</source>
-            <target>About me</target>
-          </trans-unit>
-          <trans-unit id="oFYMEMy" resname=".navbar.competences">
-            <source>.navbar.competences</source>
-            <target>Skills</target>
-          </trans-unit>
-          <trans-unit id="ucoVQB8" resname=".navbar.projets">
-            <source>.navbar.projets</source>
-            <target>Projects</target>
-          </trans-unit>
-          <trans-unit id="6hK3XiL" resname=".navbar.contact">
-            <source>.navbar.contact</source>
-            <target>Contact</target>
-          </trans-unit>
-        </body>
+      </trans-unit>
+      <trans-unit id="b_WEvDb" resname="main.infos_perso.what1">
+        <source>main.infos_perso.what1</source>
+        <target>Application creation and development</target>
+      </trans-unit>
+      <trans-unit id="bnk9_sR" resname="main.infos_perso.what2">
+        <source>main.infos_perso.what2</source>
+        <target>Websites development</target>
+      </trans-unit>
+      <trans-unit id="v1Qeq7e" resname="main.infos_perso.what3">
+        <source>main.infos_perso.what3</source>
+        <target>Software maintenance and testing</target>
+      </trans-unit>
+      <trans-unit id="Ef2BvQg" resname="main.infos_perso.what4">
+        <source>main.infos_perso.what4</source>
+        <target>User support and change management</target>
+      </trans-unit>
+      <trans-unit id="w6Q4oVf" resname="main.infos_perso.what5">
+        <source>main.infos_perso.what5</source>
+        <target>Data management and administration</target>
+      </trans-unit>
+      <trans-unit id="39PRL6g" resname="main.infos_perso.what6">
+        <source>main.infos_perso.what6</source>
+        <target>Installation, configuration, and development on software packages</target>
+      </trans-unit>
+      <trans-unit id="tw6FARu" resname="main.infos_perso.what7">
+        <source>main.infos_perso.what7</source>
+        <target>IT project management support</target>
+      </trans-unit>
+      <trans-unit id="FBwfZCD" resname="main.infos_perso.what8">
+        <source>main.infos_perso.what8</source>
+        <target>IT migration</target>
+      </trans-unit>
+      <trans-unit id="HnZFSUg" resname="main.infos_perso.what9">
+        <source>main.infos_perso.what9</source>
+        <target>System and network administration</target>
+      </trans-unit>
+      <trans-unit id="I8NyIVz" resname="main.infos_perso.whatComplement">
+        <source>main.infos_perso.whatComplement</source>
+        <target>I am better at programming. I can also learn new skills.</target>
+      </trans-unit>
+      <trans-unit id="zvsS7Yc" resname="main.projets.titlePage">
+        <source>main.projets.titlePage</source>
+        <target>Projects</target>
+      </trans-unit>
+      <trans-unit id="YQkntgu" resname="main.projets.titleIA">
+        <source>main.projets.titleIA</source>
+        <target>AI creating</target>
+      </trans-unit>
+      <trans-unit id="9lQ.Rvk" resname="main.projets.titleBD">
+        <source>main.projets.titleBD</source>
+        <target>Database management</target>
+      </trans-unit>
+      <trans-unit id="y5XVSjn" resname="main.projets.titleEvent">
+        <source>main.projets.titleEvent</source>
+        <target>Application for event organizers development</target>
+      </trans-unit>
+      <trans-unit id="FfnCPam" resname="main.projets.titleMusee">
+        <source>main.projets.titleMusee</source>
+        <target>Museum visit application development</target>
+      </trans-unit>
+      <trans-unit id="lNW0AMH" resname="main.projets.titleAppUp">
+        <source>main.projets.titleAppUp</source>
+        <target>Existing application improvement</target>
+      </trans-unit>
+      <trans-unit id="Dskt5y5" resname=".navbar.infos_perso">
+        <source>.navbar.infos_perso</source>
+        <target>About me</target>
+      </trans-unit>
+      <trans-unit id="oFYMEMy" resname=".navbar.competences">
+        <source>.navbar.competences</source>
+        <target>Skills</target>
+      </trans-unit>
+      <trans-unit id="ucoVQB8" resname=".navbar.projets">
+        <source>.navbar.projets</source>
+        <target>Projects</target>
+      </trans-unit>
+      <trans-unit id="6hK3XiL" resname=".navbar.contact">
+        <source>.navbar.contact</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="AYgFxd8" resname="main.projets.IAEq">
+        <source>main.projets.IAEq</source>
+        <target>Team: 2 people.</target>
+      </trans-unit>
+      <trans-unit id="NnDQ5Rt" resname="main.projets.IAObj">
+        <source>main.projets.IAObj</source>
+        <target>Goal: create an AI that analyze news reports and guess the theme using a list of words
+                                    I gave in Java. It analyzed 500 news reports and had a success rate of nearly 80%.</target>
+      </trans-unit>
+      <trans-unit id="i9dzvTo" resname="main.projets.IAMC">
+        <source>main.projets.IAMC</source>
+        <target>Keywords: AI, Java.</target>
+      </trans-unit>
+      <trans-unit id="CMxVnC8" resname="main.projets.BDEq">
+        <source>main.projets.BDEq</source>
+        <target>Team: 2 people.</target>
+      </trans-unit>
+      <trans-unit id="qA5_tFN" resname="main.projets.BDObj">
+        <source>main.projets.BDObj</source>
+        <target>Goal: clean up a Nutriscore database that contained duplicates and impossible values,
+                                    then extract some interesting data to create graphs explaining what Nutriscore is.</target>
+      </trans-unit>
+      <trans-unit id="exEmxCH" resname="main.projets.BDMC">
+        <source>main.projets.BDMC</source>
+        <target>Keywords: Database, SQL, graphics.</target>
+      </trans-unit>
+      <trans-unit id="e13mXSQ" resname="main.projets.eventEq">
+        <source>main.projets.eventEq</source>
+        <target>Team: 6 people.</target>
+      </trans-unit>
+      <trans-unit id="wnv97.e" resname="main.projets.eventObj">
+        <source>main.projets.eventObj</source>
+        <target>Goal: create software that
+                                    helps event organizers. This taught me the importance of communication in group work. We can save a lot
+                                    of time by coordinating properly. I was responsible for designing UML diagrams and sequence diagrams
+                                    illustrating the application code, which gave me experience in thinking about how an IT service should
+                                    function properly. I also wrote the Java model code.</target>
+      </trans-unit>
+      <trans-unit id="Rpkiyra" resname="main.projets.eventMC">
+        <source>main.projets.eventMC</source>
+        <target>Keywords: Software, Java, UML.</target>
+      </trans-unit>
+      <trans-unit id="OrdYa4P" resname="main.projets.museeEq">
+        <source>main.projets.museeEq</source>
+        <target>Team: 7 people.</target>
+      </trans-unit>
+      <trans-unit id="IUjskf7" resname="main.projets.museeObj">
+        <source>main.projets.museeObj</source>
+        <target>Goal: the development of an
+                                          application used to create fictional museum itineraries for those who don't have time to visit
+                                          everything. I was able to gain more experience working with a project manager and discovering the
+                                          NextJS framework. I handled various tasks such as the TypeScript model, the design and ergonomics
+                                          of the application, the creation of diagrams, and bug fixes.</target>
+      </trans-unit>
+      <trans-unit id="H0a_9DL" resname="main.projets.museeMC">
+        <source>main.projets.museeMC</source>
+        <target>Keywords: TypeScript, NextJS, software, UML.</target>
+      </trans-unit>
+      <trans-unit id="y.m56DE" resname="main.projets.appUpEq">
+        <source>main.projets.appUpEq</source>
+        <target>Team: 5 people.</target>
+      </trans-unit>
+      <trans-unit id="2RSV_hl" resname="main.projets.appUpObj">
+        <source>main.projets.appUpObj</source>
+        <target>Goal: improve an internship search application provided by IUT teachers. It showed me the consequences of poor work and how to remedy
+                                          it. I was responsible for improving the database
+                                          and the server side using the Symfony framework.</target>
+      </trans-unit>
+      <trans-unit id="pLpVMJU" resname="main.projets.appUpMC">
+        <source>main.projets.appUpMC</source>
+        <target>Keywords: Symfony, PHP, Database, software.</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
