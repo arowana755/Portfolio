@@ -7,7 +7,7 @@ html {
     background-color: var(--accueil-primary-bg-color);
 }
 
-main {
+section {
     flex-direction: column;
     height: 500px;
     align-items: center;
@@ -19,7 +19,7 @@ div {
     width: auto;
 }
 
-main > div.accueil_container {
+section > div.accueil_container {
     display: flex;
     flex-direction: row;
     background-color: var(--accueil-sec-bg-color);

@@ -10,7 +10,7 @@
 {% endblock %}
 
 {% block body %}
-<main id="infos_perso_body">
+<section id="infos_perso_body">
     <aside>
         <img src="{{ asset('images/Ma_photo.png') }}" title="ma photo" alt="photo">
     </aside>
@@ -22,8 +22,8 @@
             dans les langages Java, C, C++, assembleur, javascript, typescript, PHP, HTML, CSS et SQL. #}
             {% trans %}main.infos_perso.admin{% endtrans %} {# Je maîtrise les bases de l'administration de systèmes informatiques. #}
         </p>
+        <img class="crayon" src="{{ asset('images/crayon.png') }}" alt="crayon"/>
     </div>
-    <img class="crayon" src="{{ asset('images/crayon.png') }}" alt="crayon"/>
     {#
     <div class="infos">
         <h3>{% trans %}main.infos_perso.whatQuestion{% endtrans %}</h3> {# Quelle type d'offre ? # }
@@ -46,5 +46,5 @@
                 {% trans %}main.infos_perso.whatComplement{% endtrans %}
         </p> {# Je serai plus performant en programmation. Je peux aussi apprendre de nouvelles choses. # }
     </div> #}
-</main>
+</section>
 {% endblock %}

@@ -173,7 +173,7 @@
       </trans-unit>
       <trans-unit id="oFYMEMy" resname=".navbar.competences">
         <source>.navbar.competences</source>
-        <target>Competences</target>
+        <target>Compétences</target>
       </trans-unit>
       <trans-unit id="ucoVQB8" resname=".navbar.projets">
         <source>.navbar.projets</source>

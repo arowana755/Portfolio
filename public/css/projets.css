@@ -7,19 +7,19 @@ html {
     background-color: var(--projets-primary-bg-color);
 }
 
-main {
+section {
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-main > div.project_container {
+section > div.project_container {
     width: 45%;
     height: 25em;
     background-color: var(--projets-sec-bg-color);
     position: relative;
 }
 
-main img.projet {
+section img.projet {
     height: min-content;
     max-width: 25%;
     max-height: 200px;
