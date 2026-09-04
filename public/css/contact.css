@@ -26,3 +26,15 @@ section > div > img.contact_image {
 section > div > img#telephone {
     max-width: 80px;
 }
+
+a.logo_github {
+    width: min-content;
+    border: 2px solid #1b263b;
+    background-color: #8ac956;
+}
+
+img.logo_github {
+    max-width: 160px;
+    border-radius: 20px;
+    padding: 10px;
+}
