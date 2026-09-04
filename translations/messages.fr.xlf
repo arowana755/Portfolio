@@ -9,10 +9,6 @@
         <source>.footer.msg</source>
         <target>Toutes les images utilisées ont été faites par moi</target>
       </trans-unit>
-      <trans-unit id="KIGI9_6" resname="main.competences.titlePage">
-        <source>main.competences.titlePage</source>
-        <target>Compétences</target>
-      </trans-unit>
       <trans-unit id="SioTB1G" resname="main.competences.titleView">
         <source>main.competences.titleView</source>
         <target>Quelles compétences ?</target>
@@ -36,10 +32,6 @@
                             Généralement plus efficace en choisissant une tâche précise et en la faisant jusqu'au bout de son
                             côté. Peux aussi contribuer à un projet en regardant ce que font les autres et en signalant ce
                 			qui est erroné.</target>
-      </trans-unit>
-      <trans-unit id="6j44esb" resname="main.contact.titlePage">
-        <source>main.contact.titlePage</source>
-        <target>Contact</target>
       </trans-unit>
       <trans-unit id="LEYg9nk" resname="main.contact.titreVue">
         <source>main.contact.titreVue</source>
@@ -72,10 +64,6 @@
       <trans-unit id="LJDh_h6" resname="main.index.occupation">
         <source>main.index.occupation</source>
         <target>Etudiant en informatique</target>
-      </trans-unit>
-      <trans-unit id="VDC7rsA" resname="main.infos_perso.titlePage">
-        <source>main.infos_perso.titlePage</source>
-        <target>Infos_perso</target>
       </trans-unit>
       <trans-unit id="QfyTsBI" resname="main.infos_perso.titleView">
         <source>main.infos_perso.titleView</source>
@@ -142,10 +130,6 @@
       <trans-unit id="I8NyIVz" resname="main.infos_perso.whatComplement">
         <source>main.infos_perso.whatComplement</source>
         <target>Je serai plus performant en programmation. Je peux aussi apprendre de nouvelles choses.</target>
-      </trans-unit>
-      <trans-unit id="zvsS7Yc" resname="main.projets.titlePage">
-        <source>main.projets.titlePage</source>
-        <target>Projets</target>
       </trans-unit>
       <trans-unit id="YQkntgu" resname="main.projets.titleIA">
         <source>main.projets.titleIA</source>

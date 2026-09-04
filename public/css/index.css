@@ -1,40 +1,169 @@
 :root {
     --accueil-primary-bg-color: #219ebc;
     --accueil-sec-bg-color: #219e9c;
+    --infos-perso-primary-bg-color: #03045e;
+    --infos-perso-sec-bg-color: #03044e;
+    --competences-primary-bg-color: #1b263b;
+    --competences-sec-bg-color: #1b264b;
+    --projets-primary-bg-color: #adb5bd;
+    --projets-sec-bg-color: #adb5ad;
+    --contact-primary-bg-color: #8ac956;
+    --contact-sec-bg-color: #8ac926;
 }
 
-html {
+section.accueil {
     background-color: var(--accueil-primary-bg-color);
-}
-
-section {
     flex-direction: column;
     height: 500px;
     align-items: center;
 }
 
-div {
+section.accueil div {
     justify-content: center;
     align-items: center;
     width: auto;
 }
 
-section > div.accueil_container {
+section.accueil > div.accueil_container {
     display: flex;
     flex-direction: row;
     background-color: var(--accueil-sec-bg-color);
 }
 
-h1 {
+section.accueil h1 {
     font-size: 70px;
 }
 
-h2 {
+section.accueil h2 {
     font-size: 50px;
     height: min-content;
     margin: 0;
 }
 
-p {
+section.accueil p {
     font-size: 30px;
+}
+
+section#infos_perso_body {
+    background-color: var(--infos-perso-primary-bg-color);
+    color: var(--secondary-text-color);
+}
+
+section#infos_perso_body > div.infos {
+    position: relative;
+    background-color: var(--infos-perso-sec-bg-color);
+    height: 35em;
+}
+
+section#infos_perso_body img.crayon {
+    position: absolute;
+    left: 70%;
+    top: 10%;
+    transform: rotate(225deg);
+}
+
+section#infos_perso_body aside {
+    align-self: center;
+}
+
+section#competences_body {
+    background-color: var(--competences-primary-bg-color);
+    color: var(--secondary-text-color);
+    position: relative;
+}
+
+section#competences_body > div {
+    background-color: var(--competences-sec-bg-color);
+    border-radius: 2%;
+    z-index: 2;
+}
+
+section#competences_body > aside {
+    align-self: center;
+}
+
+section#competences_body > p.decorative_numbers {
+    position: absolute;
+    font-size: 25px;
+    color: gray;
+    font-weight: bold;
+    z-index: 1;
+}
+
+section#competences_body > p.decorative_numbers#num1 {
+    top: 100%;
+    left: 40%;
+}
+
+section#competences_body > p.decorative_numbers#num2 {
+    top: 50%;
+    left: 13%;
+}
+
+section#competences_body > p.decorative_numbers#num3 {
+    top: 60%;
+    left: 60%;
+}
+
+section#competences_body > p.decorative_numbers#num4 {
+    top: 120%;
+    left: 75%;
+}
+
+section#projets_body {
+    background-color: var(--projets-primary-bg-color);
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+section#projets_body > div.project_container {
+    width: 45%;
+    height: 25em;
+    background-color: var(--projets-sec-bg-color);
+    position: relative;
+}
+
+section#projets_body img.projet {
+    height: min-content;
+    max-width: 25%;
+    max-height: 200px;
+    position: absolute;
+    right: 10px;
+}
+
+section#projets_body h3 {
+    height: auto;
+}
+
+section#contact_body {
+    background-color: var(--contact-primary-bg-color);
+    height: 80%;
+}
+
+section#contact_body > div {
+    position: relative;
+    background-color: var(--contact-sec-bg-color);
+    border: 2px solid green;
+}
+
+section#contact_body > div > img.contact_image {
+    position: absolute;
+    right: 10px;
+    top: 100px;
+}
+
+section#contact_body > div > img#telephone {
+    max-width: 80px;
+}
+
+section#contact_body a.logo_github {
+    width: min-content;
+    border: 2px solid #1b263b;
+    background-color: #8ac956;
+}
+
+section#contact_body img.logo_github {
+    max-width: 160px;
+    border-radius: 20px;
+    padding: 10px;
 }

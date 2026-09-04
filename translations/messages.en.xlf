@@ -9,10 +9,6 @@
         <source>.footer.msg</source>
         <target>All pictures were made by me</target>
       </trans-unit>
-      <trans-unit id="KIGI9_6" resname="main.competences.titlePage">
-        <source>main.competences.titlePage</source>
-        <target>Skills</target>
-      </trans-unit>
       <trans-unit id="SioTB1G" resname="main.competences.titleView">
         <source>main.competences.titleView</source>
         <target>What skills?</target>
@@ -41,10 +37,6 @@
               specific task and see it through to completion alone. Can also contribute to a project by observing
               what others are doing and pointing out any errors.
             </target>
-      </trans-unit>
-      <trans-unit id="6j44esb" resname="main.contact.titlePage">
-        <source>main.contact.titlePage</source>
-        <target>Contact</target>
       </trans-unit>
       <trans-unit id="LEYg9nk" resname="main.contact.titreVue">
         <source>main.contact.titreVue</source>
@@ -79,10 +71,6 @@
       <trans-unit id="LJDh_h6" resname="main.index.occupation">
         <source>main.index.occupation</source>
         <target>Computer science student</target>
-      </trans-unit>
-      <trans-unit id="VDC7rsA" resname="main.infos_perso.titlePage">
-        <source>main.infos_perso.titlePage</source>
-        <target>About_me</target>
       </trans-unit>
       <trans-unit id="QfyTsBI" resname="main.infos_perso.titleView">
         <source>main.infos_perso.titleView</source>
@@ -153,10 +141,6 @@
       <trans-unit id="I8NyIVz" resname="main.infos_perso.whatComplement">
         <source>main.infos_perso.whatComplement</source>
         <target>I am better at programming. I can also learn new skills.</target>
-      </trans-unit>
-      <trans-unit id="zvsS7Yc" resname="main.projets.titlePage">
-        <source>main.projets.titlePage</source>
-        <target>Projects</target>
       </trans-unit>
       <trans-unit id="YQkntgu" resname="main.projets.titleIA">
         <source>main.projets.titleIA</source>

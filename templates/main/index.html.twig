@@ -10,14 +10,172 @@
 {% endblock %}
 
 {% block body %}
-<section class="accueil">
-    <div class="accueil_container">
-        <img src="{{ asset('images/Ma_photo.png') }}" alt="Ma photo">
-        <div>
-            <h2>{% trans %}main.index.quoi{% endtrans %}</h2> {# Portfolio de #}
-            <h1>Timothée Dagand</h1>
-            <p>{% trans %}main.index.occupation{% endtrans %}</p> {# Etudiant en informatique #}
-        </div>
-    </div>
-</section>
+    <main>
+        <section class="accueil">
+            <div class="accueil_container">
+                <img src="{{ asset('images/Ma_photo.png') }}" alt="Ma photo">
+                <div>
+                    <h2>{% trans %}main.index.quoi{% endtrans %}</h2> {# Portfolio de #}
+                    <h1>Timothée Dagand</h1>
+                    <p>{% trans %}main.index.occupation{% endtrans %}</p> {# Etudiant en informatique #}
+                </div>
+            </div>
+        </section>
+
+        <section id="infos_perso_body">
+            <aside>
+                <img src="{{ asset('images/Ma_photo.png') }}" title="ma photo" alt="photo">
+            </aside>
+            <div class="infos">
+                <h2>{% trans %}main.infos_perso.titleView{% endtrans %}</h2> {# Qui suis-je ? #}
+                <p>
+                    {% trans %}main.infos_perso.qui{% endtrans %}<br> {# Mon nom est Timothée Dagand. #}
+                    {% trans %}main.infos_perso.quoi{% endtrans %}<br> {# Je suis un étudiant en informatique. Je sais programmer
+                dans les langages Java, C, C++, assembleur, javascript, typescript, PHP, HTML, CSS et SQL. #}
+                    {% trans %}main.infos_perso.admin{% endtrans %} {# Je maîtrise les bases de l'administration de systèmes informatiques. #}
+                </p>
+                <img class="crayon" src="{{ asset('images/crayon.png') }}" alt="crayon"/>
+            </div>
+            {#
+            <div class="infos">
+                <h3>{% trans %}main.infos_perso.whatQuestion{% endtrans %}</h3> {# Quelle type d'offre ? # }
+                <p>
+                    {% trans %}main.infos_perso.why{% endtrans %}
+                </p> {# Pour valider mon année (niveau bac + 2), j'ai besoin de faire un stage en informatique. Il
+                        doit de préférence être de l'un des sujets suivants : # }
+                <ul>
+                    <li>{% trans %}main.infos_perso.what1{% endtrans %}</li> {# Conception et développement d’applications # }
+                    <li>{% trans %}main.infos_perso.what2{% endtrans %}</li> {# Conception et développement de site web # }
+                    <li>{% trans %}main.infos_perso.what3{% endtrans %}</li> {# Maintenance et tests de logiciels # }
+                    <li>{% trans %}main.infos_perso.what4{% endtrans %}</li> {# Support aux utilisateurs et conduite du changement # }
+                    <li>{% trans %}main.infos_perso.what5{% endtrans %}</li> {# Gestion et administration des données # }
+                    <li>{% trans %}main.infos_perso.what6{% endtrans %}</li> {# Installation, paramétrage et développement sur progiciel # }
+                    <li>{% trans %}main.infos_perso.what7{% endtrans %}</li> {# Assistance direction de projet informatique # }
+                    <li>{% trans %}main.infos_perso.what8{% endtrans %}</li> {# Migration informatique # }
+                    <li>{% trans %}main.infos_perso.what9{% endtrans %}</li> {# Administration de systèmes et réseaux # }
+                </ul>
+                <p>
+                        {% trans %}main.infos_perso.whatComplement{% endtrans %}
+                </p> {# Je serai plus performant en programmation. Je peux aussi apprendre de nouvelles choses. # }
+            </div> #}
+        </section>
+
+        <section id="competences_body">
+            <aside>
+                <img src="{{ asset('images/Ma_photo.png') }}" title="ma photo" alt="photo">
+            </aside>
+            <div>
+                <h2>{% trans %}main.competences.titleView{% endtrans %}</h2> {# Quelles compétences ? #}
+                <p>{% trans %}main.competences.scol{% endtrans %}</p> {# Meilleurs résultats aux études en programmation et en
+                mathématiques. Également aussi doué en développement, en base de données, en anglais et en diagrammes. #}
+                <p>{% trans %}main.competences.calc{% endtrans %}</p> {# En dehors des études, possède des compétences pour le calcul mental. #}
+            </div>
+            <div>
+                <h2>{% trans %}main.competences.titleRoles{% endtrans %}</h2> {# Rôles de prédilection dans un projet : #}
+                <p>{% trans %}main.competences.descRoles{% endtrans %}</p> {# Quelqu'un qui tient à finir sa part du travail.
+                Généralement plus efficace en choisissant une tâche précise et en la faisant jusqu'au bout de son
+                côté. Peux aussi contribuer à un projet en regardant ce que font les autres et en signalant ce
+                qui est erroné. #}
+            </div>
+            <p id="num1" class="decorative_numbers">∫5x</p>
+            <p id="num2" class="decorative_numbers">2a + 5b - c = k + ¼</p>
+            <p id="num3" class="decorative_numbers">ln(7e)</p>
+            <p id="num4" class="decorative_numbers">p³ + 7k</p>
+        </section>
+
+        <section id="projets_body">
+            <div class="project_container">
+                <h3>{% trans %}main.projets.titleIA{% endtrans %}</h3> {# Création d'une intelligence artificielle #}
+                <img class="projet" src="{{ asset('images/Projets/s1-01-extrait.png') }}" alt="Extrait du compte-rendu">
+                <ul>
+                    <li>{% trans %}main.projets.IAEq{% endtrans %}</li>  {# Équipe : 2 personnes #}
+                    <li>{% trans %}main.projets.IAObj{% endtrans %}</li> {# Objectif : projet étudiant demandant de créer
+                une IA qui analysait des dépêches et devinait le thême grace à une liste de mots fournie avec le
+                langage Java. A analysé 500 dépêches pour tester. Près de 80% de réussite. #}
+                    <li>{% trans %}main.projets.IAMC{% endtrans %}</li>  {# Mots-clés : IA, Java. #}
+                </ul>
+            </div>
+            <div class="project_container">
+                <h3>{% trans %}main.projets.titleBD{% endtrans %}</h3> {# Exploîtation d'une base de données #}
+                <img class="projet" src="{{ asset('images/Projets/s2-04-graph.png') }}" alt="Graphique nutriscore">
+                <ul>
+                    <li>{% trans %}main.projets.BDEq{% endtrans %}</li>  {# Équipe : 2 personnes #}
+                    <li>{% trans %}main.projets.BDObj{% endtrans %}</li> {# Objectif : projet étudiant demandant de
+                nettoyer une base de données sur le nutriscore contenant des doublons et des valeurs
+                impossibles. Extraction de certaines données intéressantes pour créer des
+                graphiques afin d'expliquer ce qu'est le nutriscore. #}
+                    <li>{% trans %}main.projets.BDMC{% endtrans %}</li>  {# Mots-clés : base de données, SQL, graphiques. #}
+                </ul>
+            </div>
+            <div class="project_container">
+                <h3>{% trans %}main.projets.titleEvent{% endtrans %}</h3>
+                {# Développement d'une application pour organisateurs d'évènements #}
+                <img class="projet" src="{{ asset('images/Projets/Diagramme_de_classe_détaillé.jpg') }}" alt="Diagramme ede classe">
+                <ul>
+                    <li>{% trans %}main.projets.eventEq{% endtrans %}</li>  {# Équipe : 6 personnes #}
+                    <li>{% trans %}main.projets.eventObj{% endtrans %}</li> {# Objectif : projet étudiant demandant de créer un logiciel qui aide les
+                organisateurs d'évènements. Cela montrait l'importance de la communication dans les travaux en groupe.
+                Nous pouvons gagner beaucoup de temps en nous coordonnant correctement.
+                Je me suis occuppé de la conception de diagrammes UML et des diagrammes de
+                séquences illustrants le code de l'application, ce qui m'a donné de l'expérience pour
+                réfléchir à comment un service informatique doit faire afin de fonctionner correctement.
+                J'ai également fait le code du modèle java, ce qui m'a donné de l'expérience en programmation. #}
+                    <li>{% trans %}main.projets.eventMC{% endtrans %}</li>  {# Mots-clés : logiciel, Java, UML. #}
+                </ul>
+            </div>
+            <br>
+            <div class="project_container">
+                <h3>{% trans %}main.projets.titleMusee{% endtrans %}</h3>
+                {# Développement d'une application pour visiter des musées #}
+                <img class="projet" src="{{ asset('images/Projets/thibou-ex.png') }}" alt="Chemin de visite customisé">
+                <ul>
+                    <li>{% trans %}main.projets.museeEq{% endtrans %}</li>  {# Équipe : 7 personnes #}
+                    <li>{% trans %}main.projets.museeObj{% endtrans %}</li> {# Objectif : projet étudiant demandant de
+                développer une application servant à créer des chemins de musées fictifs
+                pour ceux qui n'auraient pas le temps de tout voir. J'ai pu expérimenter davantage le fait
+                de travailler avec un chef de projet et la découverte du framework NextJS.
+                Je me suis occupé de diverses tâches telles que le modèle typescript, le design
+                et l'ergonomie de l'application, la conception de diagrammes UML ou la correction
+                de bugs. #}
+                    <li>{% trans %}main.projets.museeMC{% endtrans %}</li>  {# Mots-clés : TypeScript, NextJS, logiciel, UML, ergonomie. #}
+                    <li><a href="https://github.com/chlorat3/Thibou">Github</a></li>
+                </ul>
+            </div>
+            <div class="project_container">
+                <h3>{% trans %}main.projets.titleAppUp{% endtrans %}</h3> {# Amélioration d'une application existante #}
+                <img class="projet" src="{{ asset('images/Projets/restAppTree.png') }}" alt="Arbre d'application">
+                <ul>
+                    <li>{% trans %}main.projets.appUpEq{% endtrans %}</li>  {# Équipe : 5 personnes #}
+                    <li>{% trans %}main.projets.appUpObj{% endtrans %}</li> {# Objectif : projet étudiant demandant de restaurer une
+                application de recherche de stage donnée par les enseignants de l'IUT.
+                Cela montrait quelles pouvaient être les conséquences d'un travail mal fait
+                et comment y remédier. Je me suis chargé de l'amélioration de la base de données
+                et de la partie serveur avec le framework Symfony. #}
+                    <li>{% trans %}main.projets.appUpMC{% endtrans %}</li>  {# Mots-clés : base de données, Symfony, logiciel. #}
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact_body">
+            <div>
+                <h2>{% trans %}main.contact.titreVue{% endtrans %}</h2> {# Comment me contacter ? #}
+                <img id="comm" class="contact_image" src="{{ asset('images/comm.png') }}" alt="parler"/>
+                <p>
+                    {% trans %}main.contact.comment{% endtrans %}<br> {# Vous pouvez me contacter grâce à mon téléphone portable ou à mon e-mail. #}
+                    {% trans %}main.contact.lequel{% endtrans %} {# Ma préférence personnelle tend vers le mail. #}
+                </p>
+            </div>
+            <div>
+                <h2>{% trans %}main.contact.titreDisplay{% endtrans %}</h2> {# Contact : #}
+                <img id="telephone" class="contact_image" src="{{ asset('images/telephone.png') }}" alt="téléphone">
+                <p>
+                    {% trans %}main.contact.tel{% endtrans %}<br> {# Téléphone : 06 01 87 60 36 #}
+                    E-mail    : silure.38@gmail.com
+                </p>
+                <a class="logo_github" href="https://github.com/arowana755/Portfolio">
+                    <img class="logo_github" src="{{ asset('images/github-logo.png') }}" alt="{{ ('main.index.github')|trans }}">
+                </a>
+            </div>
+        </section>
+    </main>
 {% endblock %}
