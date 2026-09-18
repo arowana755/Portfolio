@@ -66,6 +66,17 @@ section#infos_perso_body aside {
     align-self: center;
 }
 
+section#infos_perso_body a#CV_link {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: blue;
+    width: min-content;
+    align-self: center;
+    padding: 10px;
+    border: 2px solid aqua;
+    border-radius: 5px;
+}
+
 section#competences_body {
     background-color: var(--competences-primary-bg-color);
     color: var(--secondary-text-color);

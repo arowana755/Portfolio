@@ -21,4 +21,17 @@ final class MainController extends AbstractController
             'controller_name' => 'MainController',
         ]);
     }
+
+    #[Route(
+        path: '/{_locale}/cv',
+        name: 'port_cv',
+        requirements: ['locale' => '%app.supported_locales%'],
+        defaults: ['_locale' => 'fr']
+    )]
+    public function downloadCv(): BinaryFileResponse
+    {
+        $file = $this->getParameter('kernel.project_dir') . '/public/fichiers/cv-DAGAND-Timothee.pdf';
+
+        return new BinaryFileResponse($file);
+    }
 }
