@@ -14,7 +14,6 @@
 section.accueil {
     background-color: var(--accueil-primary-bg-color);
     flex-direction: column;
-    height: 500px;
     align-items: center;
 }
 
@@ -98,26 +97,26 @@ section#competences_body > p.decorative_numbers {
     font-size: 25px;
     color: gray;
     font-weight: bold;
-    z-index: 1;
+    z-index: 2;
 }
 
 section#competences_body > p.decorative_numbers#num1 {
-    top: 100%;
+    top: 75%;
     left: 40%;
 }
 
 section#competences_body > p.decorative_numbers#num2 {
-    top: 50%;
-    left: 13%;
+    top: 45%;
+    left: 5%;
 }
 
 section#competences_body > p.decorative_numbers#num3 {
-    top: 60%;
-    left: 60%;
+    top: 50%;
+    left: 53%;
 }
 
 section#competences_body > p.decorative_numbers#num4 {
-    top: 120%;
+    top: 85%;
     left: 75%;
 }
 
@@ -129,21 +128,30 @@ section#projets_body {
 
 section#projets_body > div.project_container {
     width: 45%;
-    height: 25em;
+    height: auto;
     background-color: var(--projets-sec-bg-color);
-    position: relative;
 }
 
 section#projets_body img.projet {
     height: min-content;
     max-width: 25%;
     max-height: 200px;
-    position: absolute;
     right: 10px;
 }
 
 section#projets_body h3 {
+    height: min-content;
+}
+
+section#projets_body div.project_head {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     height: auto;
+    padding: 0;
+    margin: 0;
 }
 
 section#contact_body {

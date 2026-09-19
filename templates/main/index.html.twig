@@ -80,8 +80,10 @@
 
         <section id="projets_body">
             <div class="project_container">
-                <h3>{% trans %}main.projets.titleIA{% endtrans %}</h3> {# Création d'une intelligence artificielle #}
-                <img class="projet" src="{{ asset('images/Projets/s1-01-extrait.png') }}" alt="Extrait du compte-rendu">
+                <div class="project_head">
+                    <h3>{% trans %}main.projets.titleIA{% endtrans %}</h3> {# Création d'une intelligence artificielle #}
+                    <img class="projet" src="{{ asset('images/Projets/s1-01-extrait.png') }}" alt="Extrait du compte-rendu">
+                </div>
                 <ul>
                     <li>{% trans %}main.projets.IAEq{% endtrans %}</li>  {# Équipe : 2 personnes #}
                     <li>{% trans %}main.projets.IAObj{% endtrans %}</li> {# Objectif : projet étudiant demandant de créer
@@ -91,8 +93,10 @@
                 </ul>
             </div>
             <div class="project_container">
-                <h3>{% trans %}main.projets.titleBD{% endtrans %}</h3> {# Exploîtation d'une base de données #}
-                <img class="projet" src="{{ asset('images/Projets/s2-04-graph.png') }}" alt="Graphique nutriscore">
+                <div class="project_head">
+                    <h3>{% trans %}main.projets.titleBD{% endtrans %}</h3> {# Exploîtation d'une base de données #}
+                    <img class="projet" src="{{ asset('images/Projets/s2-04-graph.png') }}" alt="Graphique nutriscore">
+                </div>
                 <ul>
                     <li>{% trans %}main.projets.BDEq{% endtrans %}</li>  {# Équipe : 2 personnes #}
                     <li>{% trans %}main.projets.BDObj{% endtrans %}</li> {# Objectif : projet étudiant demandant de
@@ -103,9 +107,11 @@
                 </ul>
             </div>
             <div class="project_container">
-                <h3>{% trans %}main.projets.titleEvent{% endtrans %}</h3>
-                {# Développement d'une application pour organisateurs d'évènements #}
-                <img class="projet" src="{{ asset('images/Projets/Diagramme_de_classe_détaillé.jpg') }}" alt="Diagramme ede classe">
+                <div class="project_head">
+                    <h3>{% trans %}main.projets.titleEvent{% endtrans %}</h3>
+                    {# Développement d'une application pour organisateurs d'évènements #}
+                    <img class="projet" src="{{ asset('images/Projets/Diagramme_de_classe_détaillé.jpg') }}" alt="Diagramme ede classe">
+                </div>
                 <ul>
                     <li>{% trans %}main.projets.eventEq{% endtrans %}</li>  {# Équipe : 6 personnes #}
                     <li>{% trans %}main.projets.eventObj{% endtrans %}</li> {# Objectif : projet étudiant demandant de créer un logiciel qui aide les
@@ -120,9 +126,11 @@
             </div>
             <br>
             <div class="project_container">
-                <h3>{% trans %}main.projets.titleMusee{% endtrans %}</h3>
-                {# Développement d'une application pour visiter des musées #}
-                <img class="projet" src="{{ asset('images/Projets/thibou-ex.png') }}" alt="Chemin de visite customisé">
+                <div class="project_head">
+                    <h3>{% trans %}main.projets.titleMusee{% endtrans %}</h3>
+                    {# Développement d'une application pour visiter des musées #}
+                    <img class="projet" src="{{ asset('images/Projets/thibou-ex.png') }}" alt="Chemin de visite customisé">
+                </div>
                 <ul>
                     <li>{% trans %}main.projets.museeEq{% endtrans %}</li>  {# Équipe : 7 personnes #}
                     <li>{% trans %}main.projets.museeObj{% endtrans %}</li> {# Objectif : projet étudiant demandant de
@@ -137,8 +145,10 @@
                 </ul>
             </div>
             <div class="project_container">
-                <h3>{% trans %}main.projets.titleAppUp{% endtrans %}</h3> {# Amélioration d'une application existante #}
-                <img class="projet" src="{{ asset('images/Projets/restAppTree.png') }}" alt="Arbre d'application">
+                <div class="project_head">
+                    <h3>{% trans %}main.projets.titleAppUp{% endtrans %}</h3> {# Amélioration d'une application existante #}
+                    <img class="projet" src="{{ asset('images/Projets/restAppTree.png') }}" alt="Arbre d'application">
+                </div>
                 <ul>
                     <li>{% trans %}main.projets.appUpEq{% endtrans %}</li>  {# Équipe : 5 personnes #}
                     <li>{% trans %}main.projets.appUpObj{% endtrans %}</li> {# Objectif : projet étudiant demandant de restaurer une
