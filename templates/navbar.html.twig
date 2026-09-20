@@ -9,15 +9,15 @@
 {% block body %}
 <header>
     <nav>
-        <span id="lien_accueil">
+        <span id="lien_accueil" class="clickable">
             <a href="#accueil_body">Portfolio</a>
         </span>
         <div id="links-container">
             <ul id="links">
-                <li class="lien_page"><a href="#infos_perso_body">{% trans %}.navbar.infos_perso{% endtrans %}</a></li>
-                <li class="lien_page"><a href="#competences_body">{% trans %}.navbar.competences{% endtrans %}</a></li>
-                <li class="lien_page"><a href="#projets_body">{% trans %}.navbar.projets{% endtrans %}</a></li>
-                <li class="lien_page last"><a href="#contact_body">{% trans %}.navbar.contact{% endtrans %}</a></li>
+                <li class="clickable lien_page"><a class="clickable" href="#infos_perso_body">{% trans %}.navbar.infos_perso{% endtrans %}</a></li>
+                <li class="clickable lien_page"><a href="#competences_body">{% trans %}.navbar.competences{% endtrans %}</a></li>
+                <li class="clickable lien_page"><a href="#projets_body">{% trans %}.navbar.projets{% endtrans %}</a></li>
+                <li class="clickable lien_page last"><a href="#contact_body">{% trans %}.navbar.contact{% endtrans %}</a></li>
             </ul>
         </div>
         {% set locale = app.request.attributes.get('_locale') %}
@@ -28,7 +28,7 @@
                     {% set params = app.request.attributes.get('_route_params') %}
                     {% set params = params | merge({'_locale': uneLocale }) %}
                     <a href="{{ path(route, params) }}">
-                        <img src="{{ asset("images/locales/" ~ uneLocale ~ ".png") }}" alt="{{ uneLocale }}">
+                        <img class="clickable" src="{{ asset("images/locales/" ~ uneLocale ~ ".png") }}" alt="{{ uneLocale }}">
                     </a>
                 </div>
             {% endif %}

@@ -31,7 +31,7 @@
                 dans les langages Java, C, C++, assembleur, javascript, typescript, PHP, HTML, CSS et SQL. #}
                     {% trans %}main.infos_perso.admin{% endtrans %} {# Je maîtrise les bases de l'administration de systèmes informatiques. #}
                 </p>
-                <a href="{{ path('port_cv') }}" id="CV_link">CV</a>
+                <a class="clickable" href="{{ path('port_cv') }}" id="CV_link">CV</a>
                 <img class="crayon" src="{{ asset('images/crayon.png') }}" alt="crayon"/>
             </div>
             {#
@@ -176,7 +176,7 @@
                     {% trans %}main.contact.tel{% endtrans %}<br> {# Téléphone : 06 01 87 60 36 #}
                     E-mail    : silure.38@gmail.com
                 </p>
-                <a class="logo_github" href="https://github.com/arowana755/Portfolio">
+                <a class="clickable logo_github" href="https://github.com/arowana755/Portfolio">
                     <img class="logo_github" src="{{ asset('images/github-logo.png') }}" alt="{{ ('main.index.github')|trans }}">
                 </a>
             </div>

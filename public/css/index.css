@@ -11,6 +11,10 @@
     --contact-sec-bg-color: #8ac926;
 }
 
+main .clickable:hover {
+    filter: brightness(2);
+}
+
 section.accueil {
     background-color: var(--accueil-primary-bg-color);
     flex-direction: column;

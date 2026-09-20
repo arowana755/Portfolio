@@ -18,6 +18,10 @@ nav {
     align-items: center;
 }
 
+header .clickable:hover {
+    background-color: var(--navbar-hover-color);
+}
+
 nav ul#links {
     display: flex;
     justify-content: center;
@@ -30,12 +34,10 @@ nav li {
     text-decoration: none;
     border-left: 1px solid var(--navbar-border-color);
     padding: 1em 0 1em 0;
+    background-color: var(--navbar-bg-color);
 }
 nav li.lien_page.last {
     border-right: 1px solid var(--navbar-border-color);
-}
-nav li:hover {
-    background-color: var(--navbar-hover-color);
 }
 nav a {
     color: var(--primary-text-color);
@@ -61,6 +63,10 @@ nav > div {
 nav span#lien_accueil {
     margin-left: 50px;
 }
+nav span#lien_accueil:hover {
+    margin-left: 50px;
+    background-color: var(--navbar-hover-color);
+}
 
 nav span#lien_accueil > a {
     left: 100px;
@@ -69,11 +75,8 @@ nav span#lien_accueil > a {
     padding: 7px 10px 7px 10px;
 }
 
-nav div.locale_changer > a {
-    padding: .25rem 1.5rem;
-}
-
 nav div.locale_changer img {
     vertical-align: middle;
     width: 40px;
+    padding: 13px;
 }
