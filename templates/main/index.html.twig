@@ -11,7 +11,7 @@
 
 {% block body %}
     <main>
-        <section id="accueil_body" class="accueil">
+        <section id="accueil_body" class="accueil black_bg">
             <div class="accueil_container">
                 <img src="{{ asset('images/Ma_photo.png') }}" alt="Ma photo">
                 <div>
@@ -22,7 +22,7 @@
             </div>
         </section>
 
-        <section id="infos_perso_body">
+        <section id="infos_perso_body" class="white_bg">
             <div class="infos">
                 <h2>{% trans %}main.infos_perso.titleView{% endtrans %}</h2> {# Qui suis-je ? #}
                 <p>
@@ -58,7 +58,7 @@
             </div> #}
         </section>
 
-        <section id="competences_body">
+        <section id="competences_body" class="black_bg">
             <div>
                 <h2>{% trans %}main.competences.titleView{% endtrans %}</h2> {# Quelles compétences ? #}
                 <p>{% trans %}main.competences.scol{% endtrans %}</p> {# Meilleurs résultats aux études en programmation et en
@@ -78,7 +78,7 @@
             <p id="num4" class="decorative_numbers">p³ + 7k</p>
         </section>
 
-        <section id="projets_body">
+        <section id="projets_body" class="white_bg">
             <div class="project_container">
                 <div class="project_head">
                     <h3>{% trans %}main.projets.titleIA{% endtrans %}</h3> {# Création d'une intelligence artificielle #}
@@ -160,7 +160,7 @@
             </div>
         </section>
 
-        <section id="contact_body">
+        <section id="contact_body" class="black_bg">
             <div>
                 <h2>{% trans %}main.contact.titreVue{% endtrans %}</h2> {# Comment me contacter ? #}
                 <img id="comm" class="contact_image" src="{{ asset('images/comm.png') }}" alt="parler"/>

@@ -1,22 +1,8 @@
-:root {
-    --accueil-primary-bg-color: #219ebc;
-    --accueil-sec-bg-color: #219e9c;
-    --infos-perso-primary-bg-color: #03045e;
-    --infos-perso-sec-bg-color: #03044e;
-    --competences-primary-bg-color: #1b263b;
-    --competences-sec-bg-color: #1b264b;
-    --projets-primary-bg-color: #adb5bd;
-    --projets-sec-bg-color: #adb5ad;
-    --contact-primary-bg-color: #8ac956;
-    --contact-sec-bg-color: #8ac926;
-}
-
 main .clickable:hover {
     filter: brightness(2);
 }
 
 section.accueil {
-    background-color: var(--accueil-primary-bg-color);
     flex-direction: column;
     align-items: center;
 }
@@ -30,7 +16,6 @@ section.accueil div {
 section.accueil > div.accueil_container {
     display: flex;
     flex-direction: row;
-    background-color: var(--accueil-sec-bg-color);
 }
 
 section.accueil h1 {
@@ -48,13 +33,13 @@ section.accueil p {
 }
 
 section#infos_perso_body {
-    background-color: var(--infos-perso-primary-bg-color);
-    color: var(--secondary-text-color);
+    margin-left: 3%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
 }
 
 section#infos_perso_body > div.infos {
     position: relative;
-    background-color: var(--infos-perso-sec-bg-color);
     height: 35em;
 }
 
@@ -72,22 +57,19 @@ section#infos_perso_body aside {
 section#infos_perso_body a#CV_link {
     font-weight: bold;
     font-size: 20px;
-    background-color: blue;
+    background-color: #3c3ce1;
     width: min-content;
     align-self: center;
     padding: 10px;
-    border: 2px solid aqua;
+    border: 2px solid #a5a2ff;
     border-radius: 5px;
 }
 
 section#competences_body {
-    background-color: var(--competences-primary-bg-color);
-    color: var(--secondary-text-color);
     position: relative;
 }
 
 section#competences_body > div {
-    background-color: var(--competences-sec-bg-color);
     border-radius: 2%;
     z-index: 2;
 }
@@ -144,15 +126,16 @@ div.overlay > img {
 }
 
 section#projets_body {
-    background-color: var(--projets-primary-bg-color);
     flex-wrap: wrap;
     justify-content: flex-start;
+    margin-right: 3%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
 }
 
 section#projets_body > div.project_container {
     width: 45%;
     height: auto;
-    background-color: var(--projets-sec-bg-color);
 }
 
 section#projets_body img.projet {
@@ -179,14 +162,11 @@ section#projets_body div.project_head {
 }
 
 section#contact_body {
-    background-color: var(--contact-primary-bg-color);
     height: 80%;
 }
 
 section#contact_body > div {
     position: relative;
-    background-color: var(--contact-sec-bg-color);
-    border: 2px solid green;
 }
 
 section#contact_body > div > img.contact_image {
@@ -201,8 +181,8 @@ section#contact_body > div > img#telephone {
 
 section#contact_body a.logo_github {
     width: min-content;
-    border: 2px solid #1b263b;
-    background-color: #8ac956;
+    border: 2px solid #a5a2ff;
+    background-color: #3c3ce1;
 }
 
 section#contact_body img.logo_github {
