@@ -120,6 +120,25 @@ section#competences_body > p.decorative_numbers#num4 {
     left: 75%;
 }
 
+div.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    z-index: 10;
+}
+
+div.overlay > img {
+    height: 100%;
+}
+
 section#projets_body {
     background-color: var(--projets-primary-bg-color);
     flex-wrap: wrap;
@@ -136,7 +155,8 @@ section#projets_body img.projet {
     height: min-content;
     max-width: 25%;
     max-height: 200px;
-    right: 10px;
+    cursor: zoom-in;
+    transition: transform .3s cubic-bezier(.2,0,.2,1) !important;
 }
 
 section#projets_body h3 {
