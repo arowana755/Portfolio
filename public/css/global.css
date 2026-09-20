@@ -48,6 +48,20 @@ section.white_bg div {
     background-color: var(--secondary-bg-color-2);
 }
 
+a.logo_github {
+    display: inline-block;
+    width: min-content;
+    border: 2px solid #a5a2ff;
+    background-color: #3c3ce1;
+    margin-top: 10px;
+}
+
+img.logo_github {
+    max-width: 160px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
 h2 {
     margin-top: 5em;
     height: 20%;

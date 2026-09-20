@@ -252,6 +252,10 @@
         <source>main.index.github</source>
         <target>Page Github du portfolio</target>
       </trans-unit>
+      <trans-unit id="kblSBOA" resname="main.index.github-Thibou">
+        <source>main.index.github-Thibou</source>
+        <target>Page Github de Thibou</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -178,15 +178,3 @@ section#contact_body > div > img.contact_image {
 section#contact_body > div > img#telephone {
     max-width: 80px;
 }
-
-section#contact_body a.logo_github {
-    width: min-content;
-    border: 2px solid #a5a2ff;
-    background-color: #3c3ce1;
-}
-
-section#contact_body img.logo_github {
-    max-width: 160px;
-    border-radius: 20px;
-    padding: 10px;
-}
