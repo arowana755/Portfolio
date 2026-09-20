@@ -18,8 +18,37 @@ nav {
     align-items: center;
 }
 
+nav ul#links {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    text-decoration: none;
+    border-left: 1px solid var(--navbar-border-color);
+    padding: 1em 0 1em 0;
+}
+nav li.lien_page.last {
+    border-right: 1px solid var(--navbar-border-color);
+}
+nav li:hover {
+    background-color: var(--navbar-hover-color);
+}
 nav a {
     color: var(--primary-text-color);
+}
+
+nav ul a {
+    text-decoration: none;
+    padding: 17px 32px 17px 32px;
+    font-size: 16px;
+}
+
+nav div#links-container {
+    flex-grow: 1;
 }
 
 nav > div {
