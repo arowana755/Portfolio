@@ -256,6 +256,28 @@
         <source>main.index.github-Thibou</source>
         <target>Page Github de Thibou</target>
       </trans-unit>
+      <trans-unit id="6uN8wCD" resname="main.index.projFllgTitle">
+        <source>main.index.projFllgTitle</source>
+        <target>Contribution au développement d'un logiciel</target>
+      </trans-unit>
+      <trans-unit id="qBj_buK" resname="main.index.projFllgEq">
+        <source>main.index.projFllgEq</source>
+        <target>Équipe : 3 personnes.</target>
+      </trans-unit>
+      <trans-unit id="UCWlZFj" resname="main.index.projFllgObj">
+        <source>main.index.projFllgObj</source>
+        <target>Objectif : stage demandant de contribuer à l'amélioration d'un logiciel en C++, optimiser
+                            et ajouter des tests et des fonctions. Cela demandait un gros travail d'analyse
+                            de l'existant, un approfondissement de certaines connaissances en C++ et en git.</target>
+      </trans-unit>
+      <trans-unit id="A6uxFsR" resname="main.index.projFllgMC">
+        <source>main.index.projFllgMC</source>
+        <target>Mots-clés : C++, maillage, github.</target>
+      </trans-unit>
+      <trans-unit id="cSxzKO0" resname="main.index.github-FeeLLGood">
+        <source>main.index.github-FeeLLGood</source>
+        <target>Page Github de FeeLLGood</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

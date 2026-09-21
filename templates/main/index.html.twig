@@ -160,6 +160,22 @@
                     <li>{% trans %}main.projets.appUpMC{% endtrans %}</li>  {# Mots-clés : base de données, Symfony, logiciel. #}
                 </ul>
             </div>
+            <div class="project_container">
+                <div class="project_head">
+                    <h3>{% trans %}main.index.projFllgTitle{% endtrans %}</h3>
+                    <a href="https://feellgood.neel.cnrs.fr/">
+                        <img src="{{ asset('images/Projets/feellgood-banner.png') }}" alt="Bannière FeeLLGood">
+                    </a>
+                </div>
+                <ul>
+                    <li>{% trans %}main.index.projFllgEq{% endtrans %}</li>
+                    <li>{% trans %}main.index.projFllgObj{% endtrans %}</li>
+                    <li>{% trans %}main.index.projFllgMC{% endtrans %}</li>
+                    <a class="clickable logo_github" href="https://github.com/feellgood/FeeLLGood">
+                        <img class="logo_github" src="{{ asset('images/github-logo.png') }}" alt="{{ ('main.index.github-FeeLLGood')|trans }}">
+                    </a>
+                </ul>
+            </div>
         </section>
 
         <section id="contact_body" class="black_bg">

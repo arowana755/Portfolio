@@ -258,6 +258,28 @@
         <source>main.index.github-Thibou</source>
         <target>Thibou's Github page</target>
       </trans-unit>
+      <trans-unit id="6uN8wCD" resname="main.index.projFllgTitle">
+        <source>main.index.projFllgTitle</source>
+        <target>Existing software development</target>
+      </trans-unit>
+      <trans-unit id="qBj_buK" resname="main.index.projFllgEq">
+        <source>main.index.projFllgEq</source>
+        <target>Team: 3 people.</target>
+      </trans-unit>
+      <trans-unit id="UCWlZFj" resname="main.index.projFllgObj">
+        <source>main.index.projFllgObj</source>
+        <target>Goal: contributing to a C++ software development in an internship, optimizing
+                       and adding tests and functions. A great code analyse and knowledge
+                       improvement in C++ and git was required.</target>
+      </trans-unit>
+      <trans-unit id="A6uxFsR" resname="main.index.projFllgMC">
+        <source>main.index.projFllgMC</source>
+        <target>Keywords: C++, mesh, github.</target>
+      </trans-unit>
+      <trans-unit id="cSxzKO0" resname="main.index.github-FeeLLGood">
+        <source>main.index.github-FeeLLGood</source>
+        <target>FeeLLGood's github page</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
